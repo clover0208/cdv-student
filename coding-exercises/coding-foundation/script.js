@@ -14,6 +14,10 @@ function getVal() {
     console.log(typeof document.getElementsByClassName("circle"));
     var txt = document.getElementById('txt').value;
 
+    if (txt <= 0) {
+        alert("Enter a positive number");
+    }
+
     for (i = 0; i < txt; i++) {
         let div = document.createElement('div');
         div.className = 'circle';
@@ -23,6 +27,14 @@ function getVal() {
     // console.log(document.getElementsByClassName("container")[0]);
     console.log(document.getElementsByClassName("circle"));
 
+}
+//I try to change to random color when clicked, it's not working
+getNewRandomColor();
+
+function getNewRandomColor() {
+    var myArray = ['red', 'green', 'blue'];
+    var rand = myArray[Math.floor(Math.random() * myArray.length)];
+    document.getElementById("circle").style.backgroundColor = rand;
 }
 
 //play with mouse interaction
@@ -37,17 +49,5 @@ function getVal() {
 // }
 // for (var i = 0; i < circleclass.length; i++) {
 //     circleclass[i].addEventListener('click', myFunction_Circle, false);
-// }
-
-
-
-// function myFunction() {
-//     document.getElementById("txt").reset();
-// }
-
-// for (i = 1; i < txt; i++) {
-//     let div = document.createElement('div');
-//     div.className = 'circle';
-//     document.getElementsByClassName("container")[0].appendChild(div);
 // }
 
