@@ -41,6 +41,10 @@ height: 30px;
   background-color: white;
 }
 
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
 
 
 
@@ -53,5 +57,5 @@ border-color: black;
 border-left: 6px;
 border-top: 50px;
 border-bottom: 6px;
-border-right: 6px; 
+border-right: 6px;
 border-style: solid; */
