@@ -105,25 +105,25 @@ div{
     animation: cubic-bezier(0.19,1,0.23,1) infinite;
 }
 #text3{
-    margin-top:1em;
+    margin-top:-1em;
     margin-left:6.5em;
     color:#ab7d56;
     animation: cubic-bezier(0.1,0,0,0) infinite;
 }
 #text4{
-    margin-top:-1em;
+    margin-top:-3em;
     margin-left:13em;
     color:#266150;
     animation: cubic-bezier(0.1,0,0,0) infinite;
 }
 #text5{
-    margin-top:-3.5em;
+    margin-top:-4.3em;
     margin-left:20em;
     color:#4F4846;
     animation: cubic-bezier(0.1,0,0,0) infinite;
 } 
 #text6{
-    margin-top:-3.5em;
+    margin-top:-4.3em;
     margin-left:28em;
     color:#5f448a;
     animation: cubic-bezier(0.1,0,0,0) infinite;
