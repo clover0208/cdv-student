@@ -34,7 +34,7 @@ getNewRandomColor();
 function getNewRandomColor() {
     var myArray = ['red', 'green', 'blue'];
     var rand = myArray[Math.floor(Math.random() * myArray.length)];
-    document.getElementById("circle").style.backgroundColor = rand;
+    document.getElementsByClassName("container").style.backgroundColor = rand;
 }
 
 //play with mouse interaction
