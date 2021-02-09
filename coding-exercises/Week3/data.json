@@ -1,0 +1,101 @@
+[
+    {
+        "time": "Feb.07-11:03",
+        "where": "White",
+        "what": "worry-about-data-project",
+        "weather": "Bad",
+        "mood": "Worry",
+        "howLong": 5,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.07-11:30",
+        "where": "White",
+        "what": "no-purpose",
+        "weather": "Bad",
+        "mood": "No",
+        "howLong": 2,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.07-11:35",
+        "where": "White",
+        "what": "Cat",
+        "weather": "Bad",
+        "mood": "Happy",
+        "howLong": 6,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.07-11:50",
+        "where": "White",
+        "what": "People-having-umbrella",
+        "weather": "Bad",
+        "mood": "Worry",
+        "howLong": 5,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.07-13:30",
+        "where": "White",
+        "what": "elema",
+        "weather": "Soso",
+        "mood": "Happy",
+        "howLong": 6,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.07-14:14",
+        "where": "White",
+        "what": "Flower",
+        "weather": "Soso",
+        "mood": "No",
+        "howLong": 4,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.07-16:20",
+        "where": "White",
+        "what": "Arguing",
+        "weather": "Soso",
+        "mood": "No",
+        "howLong": 6,
+        "violatePrivate": "yes"
+    },
+    {
+        "time": "Feb.08-9:30",
+        "where": "Grey",
+        "what": "no-purpose",
+        "weather": "Good",
+        "mood": "Worry",
+        "howLong": 4,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.08-11:15",
+        "where": "Pink",
+        "what": "mountain",
+        "weather": "Good",
+        "mood": "Happy",
+        "howLong": 4,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.08-18:05",
+        "where": "Grey",
+        "what": "Trouser",
+        "weather": "Dark",
+        "mood": "No",
+        "howLong": 5,
+        "violatePrivate": "no"
+    },
+    {
+        "time": "Feb.08-20:00",
+        "where": "Pink",
+        "what": "Light",
+        "weather": "Dark",
+        "mood": "Worry",
+        "howLong": 6,
+        "violatePrivate": "no"
+    }
+]
