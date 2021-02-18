@@ -1,6 +1,5 @@
 console.log('js loaded');
-
-d3.json('data.json').then(gotData);
+d3.json("data.json").then(gotData);
 
 let svg = d3.select('#container')
     .append('svg')
