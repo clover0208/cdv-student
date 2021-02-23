@@ -83,6 +83,7 @@ svg.selectAll(".line")
     .attr("class", "line")
     .attr("d", line)
     .attr("fill", "red");
+
 var lineData = [
     { "x": 20, "y": 100 },
     { "x": 23, "y": 95 },
