@@ -180,7 +180,7 @@ function gotData(incomingData) {
       .attr("width", 1)
       .attr("preserveAspectRatio", "none")
       .attr("xlink:href", function (d) {
-        return "images/" + d.Country + ".svg";
+        return "images/" + d.Country.toLowerCase().replace(/ /g, "-") + ".svg";
       });
 
     function getGroupLocation(d, i) {
