@@ -146,6 +146,10 @@ let viz = d3.select("#container").append("svg")
   .style("background-color", "black")
   ;
 
+
+
+
+
 d3.json("mainland.geojson").then(function (geoData) {
   d3.csv('china-pop-2018.csv').then(function (incomingData) {
 
@@ -192,27 +196,56 @@ d3.json("mainland.geojson").then(function (geoData) {
           return d.properties.name;
         }
       })
-      //   .attr("fill", function (d, i) {
 
-      //     console.log(d.properties.name);
-      //     let correspondingDatapoint = incomingData.find(function (datapoint) {
-      //       if (datapoint.province == d.properties.name) {
-      //         return true;
-      //       } else {
-      //         return false
-      //       }
-      //     })
-      //     if (correspondingDatapoint != undefined) {
-      //       return colorScale(correspondingDatapoint.population)
-      //     } else {
-      //       return 'white'
-
-      //     }
-      // })
       .attr("stroke", "white")
+
+    // const simulation = d3.forceSimulation(d.province.nodes)
+    //   .force('charge', d3.forceManyBody().strength(-100))
+    //   .force('link', d3.forceLink(d.province.links).id(d => d.id)
+    //     .distance(50))
+    //   .force('center', d3.forceCenter(300, 300))
+
+    // const svg = d3.create("svg").attr("viewBox", [0, 0
+    //   , 600, 600]);
+
+    // const node = svg.selectAll('circle')
+    //   .data(data.nodes)
+    //   .enter()
+    //   .append('circle')
+    //   .attr('r', 25)
+    //   .attr('fill', 'blue');
+
+    // const link = svg
+    //   .selectAll('path.link')
+    //   .data(d.province.links)
+    //   .enter()
+    //   .append('path')
+    //   .attr('stroke', 'black')
+    //   .attr('fill', 'none');
+
+    // const lineGenerator = d3.line();
+
+    // simulation.on('tick', () => {
+    //   node.attr('cx', d => d.x);
+    //   node.attr('cy', d => d.y);
+    //   link.attr('d', d => lineGenerator([
+    //     [d.source.x, d.source.y],
+    //     [d.target.x, d.target.y]])
+    //   )
+    // });
+    // return svg.node();
+
 
     viz.selectAll("circle").data(geoData.features).enter()
       .append('circle')
+      .attr("class", "circle")
+      .attr('id', function (d) {
+        if (d.properties.name == 'Inner Mongol') {
+          return "innerMongol"
+        } else {
+          return d.properties.name;
+        }
+      })
       .attr('cx', function (d) {
         let latitude = d.properties.latitude;
         let longitude = d.properties.longitude;
@@ -255,6 +288,21 @@ d3.json("mainland.geojson").then(function (geoData) {
       .style('pointer-events', 'none');
 
 
+    // d3.json("miserables.json").then(function(graph) {
+
+    //   var label = {
+    //       'nodes': [],
+    //       'links': []
+    //   };
+
+    //   graph.nodes.forEach(function(d, i) {
+    //       label.nodes.push({node: d});
+    //       label.nodes.push({node: d});
+    //       label.links.push({
+    //           source: i * 2,
+    //           target: i * 2 + 1
+    //       });
+    //   });
 
 
   })
