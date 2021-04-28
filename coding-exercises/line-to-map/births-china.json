@@ -1,332 +1,898 @@
 [
-  {
-      "country": "China",
-      "year": "1950",
-      "birthsPerThousand": "47.012"
-  },
-  {
-      "country": "China",
-      "year": "1951",
-      "birthsPerThousand": "45.497"
-  },
-  {
-      "country": "China",
-      "year": "1952",
-      "birthsPerThousand": "42.718"
-  },
-  {
-      "country": "China",
-      "year": "1953",
-      "birthsPerThousand": "40.444"
-  },
-  {
-      "country": "China",
-      "year": "1954",
-      "birthsPerThousand": "38.673"
-  },
-  {
-      "country": "China",
-      "year": "1955",
-      "birthsPerThousand": "37.404"
-  },
-  {
-      "country": "China",
-      "year": "1956",
-      "birthsPerThousand": "36.624"
-  },
-  {
-      "country": "China",
-      "year": "1957",
-      "birthsPerThousand": "36.306"
-  },
-  {
-      "country": "China",
-      "year": "1958",
-      "birthsPerThousand": "36.404"
-  },
-  {
-      "country": "China",
-      "year": "1959",
-      "birthsPerThousand": "36.844"
-  },
-  {
-      "country": "China",
-      "year": "1960",
-      "birthsPerThousand": "37.529"
-  },
-  {
-      "country": "China",
-      "year": "1961",
-      "birthsPerThousand": "38.345"
-  },
-  {
-      "country": "China",
-      "year": "1962",
-      "birthsPerThousand": "39.163"
-  },
-  {
-      "country": "China",
-      "year": "1963",
-      "birthsPerThousand": "39.852"
-  },
-  {
-      "country": "China",
-      "year": "1964",
-      "birthsPerThousand": "40.307"
-  },
-  {
-      "country": "China",
-      "year": "1965",
-      "birthsPerThousand": "40.432"
-  },
-  {
-      "country": "China",
-      "year": "1966",
-      "birthsPerThousand": "40.172"
-  },
-  {
-      "country": "China",
-      "year": "1967",
-      "birthsPerThousand": "39.564"
-  },
-  {
-      "country": "China",
-      "year": "1968",
-      "birthsPerThousand": "38.652"
-  },
-  {
-      "country": "China",
-      "year": "1969",
-      "birthsPerThousand": "37.458"
-  },
-  {
-      "country": "China",
-      "year": "1970",
-      "birthsPerThousand": "35.99"
-  },
-  {
-      "country": "China",
-      "year": "1971",
-      "birthsPerThousand": "34.261"
-  },
-  {
-      "country": "China",
-      "year": "1972",
-      "birthsPerThousand": "32.34"
-  },
-  {
-      "country": "China",
-      "year": "1973",
-      "birthsPerThousand": "30.322"
-  },
-  {
-      "country": "China",
-      "year": "1974",
-      "birthsPerThousand": "28.303"
-  },
-  {
-      "country": "China",
-      "year": "1975",
-      "birthsPerThousand": "26.396"
-  },
-  {
-      "country": "China",
-      "year": "1976",
-      "birthsPerThousand": "24.705"
-  },
-  {
-      "country": "China",
-      "year": "1977",
-      "birthsPerThousand": "23.29"
-  },
-  {
-      "country": "China",
-      "year": "1978",
-      "birthsPerThousand": "22.191"
-  },
-  {
-      "country": "China",
-      "year": "1979",
-      "birthsPerThousand": "21.443"
-  },
-  {
-      "country": "China",
-      "year": "1980",
-      "birthsPerThousand": "21.095"
-  },
-  {
-      "country": "China",
-      "year": "1981",
-      "birthsPerThousand": "21.172"
-  },
-  {
-      "country": "China",
-      "year": "1982",
-      "birthsPerThousand": "21.595"
-  },
-  {
-      "country": "China",
-      "year": "1983",
-      "birthsPerThousand": "22.244"
-  },
-  {
-      "country": "China",
-      "year": "1984",
-      "birthsPerThousand": "23.005"
-  },
-  {
-      "country": "China",
-      "year": "1985",
-      "birthsPerThousand": "23.7"
-  },
-  {
-      "country": "China",
-      "year": "1986",
-      "birthsPerThousand": "24.144"
-  },
-  {
-      "country": "China",
-      "year": "1987",
-      "birthsPerThousand": "24.228"
-  },
-  {
-      "country": "China",
-      "year": "1988",
-      "birthsPerThousand": "23.894"
-  },
-  {
-      "country": "China",
-      "year": "1989",
-      "birthsPerThousand": "23.132"
-  },
-  {
-      "country": "China",
-      "year": "1990",
-      "birthsPerThousand": "21.99"
-  },
-  {
-      "country": "China",
-      "year": "1991",
-      "birthsPerThousand": "20.578"
-  },
-  {
-      "country": "China",
-      "year": "1992",
-      "birthsPerThousand": "19.073"
-  },
-  {
-      "country": "China",
-      "year": "1993",
-      "birthsPerThousand": "17.63"
-  },
-  {
-      "country": "China",
-      "year": "1994",
-      "birthsPerThousand": "16.337"
-  },
-  {
-      "country": "China",
-      "year": "1995",
-      "birthsPerThousand": "15.258"
-  },
-  {
-      "country": "China",
-      "year": "1996",
-      "birthsPerThousand": "14.417"
-  },
-  {
-      "country": "China",
-      "year": "1997",
-      "birthsPerThousand": "13.765"
-  },
-  {
-      "country": "China",
-      "year": "1998",
-      "birthsPerThousand": "13.261"
-  },
-  {
-      "country": "China",
-      "year": "1999",
-      "birthsPerThousand": "12.894"
-  },
-  {
-      "country": "China",
-      "year": "2000",
-      "birthsPerThousand": "12.649"
-  },
-  {
-      "country": "China",
-      "year": "2001",
-      "birthsPerThousand": "12.507"
-  },
-  {
-      "country": "China",
-      "year": "2002",
-      "birthsPerThousand": "12.442"
-  },
-  {
-      "country": "China",
-      "year": "2003",
-      "birthsPerThousand": "12.425"
-  },
-  {
-      "country": "China",
-      "year": "2004",
-      "birthsPerThousand": "12.435"
-  },
-  {
-      "country": "China",
-      "year": "2005",
-      "birthsPerThousand": "12.458"
-  },
-  {
-      "country": "China",
-      "year": "2006",
-      "birthsPerThousand": "12.491"
-  },
-  {
-      "country": "China",
-      "year": "2007",
-      "birthsPerThousand": "12.537"
-  },
-  {
-      "country": "China",
-      "year": "2008",
-      "birthsPerThousand": "12.59"
-  },
-  {
-      "country": "China",
-      "year": "2009",
-      "birthsPerThousand": "12.64"
-  },
-  {
-      "country": "China",
-      "year": "2010",
-      "birthsPerThousand": "12.669"
-  },
-  {
-      "country": "China",
-      "year": "2011",
-      "birthsPerThousand": "12.663"
-  },
-  {
-      "country": "China",
-      "year": "2012",
-      "birthsPerThousand": "12.617"
-  },
-  {
-      "country": "China",
-      "year": "2013",
-      "birthsPerThousand": "12.525"
-  },
-  {
-      "country": "China",
-      "year": "2014",
-      "birthsPerThousand": "12.388"
-  },
-  {
-      "country": "China",
-      "year": "2015",
-      "birthsPerThousand": "12.206"
-  }
+    {
+        "name": "Police"
+    },
+    {
+        "name": "NYPD",
+        "crime": "Lower East Side protesters-police-released",
+        "time": "we are also seeking to bring justice in cases where where suspects are still being saw, the individuals that you see in these video and are photographs. \nAgain we need help from the public solving these cases with our continuing work.",
+        "link": "https://www.facebook.com/NYPD/videos/967635520475864"
+    },
+    {
+        "name": "NYPD",
+        "crime": "gym-manager"
+    },
+    {
+        "name": "NYPD",
+        "crime": "37-Hou",
+        "link": "https://www.pscp.tv/w/1jMKgpqjEolGL?t=26s&fbclid=IwAR2soIl2dqhZuZt18WrR6YE-_j4N2HJYECjURXYPV3WSSapTVKXV8HQMmYA"
+    },
+    {
+        "name": "NYPD",
+        "crime": "Harlem man-police-mentioned",
+        "link": "https://www.facebook.com/NYPD/posts/3831941006882653"
+    },
+    {
+        "name": "NYPD",
+        "crime": "65-Phillipine-women",
+        "time": "The defendant is accused of brutally, shaving, kicking and stumping a 65-year old mother to the ground after telling her that she didn't belong to here. So let me join the commissioner in being clear, this brave women belongs here. Asian American New Yorkers belong here. Everyone belongs here. Attacks against Asian American New Yorkers are against all New Yorkers and our officers will continue to stand against hate in all its forms. \nMr Elliot will be arranged shortly in Manhattan criminal court on two counts of assault and second degree as a hate crime and one count of an attempted assault in the first degree as a Hate crime. If convicted, he will face up to 25 year in prison as well as other sequence during rest life of his patrol. "
+    },
+    {
+        "name": "NYPD",
+        "crime": "56-Zhang Mingshun",
+        "time": "WANTED for HATE CRIME ASSAULT: the individual attacked the 56 year-old Asian male victim by punching him in the face, rendering him unconscious. \nEMS responded and transported the victim to an area hospital for treatment of a laceration to his lip, a black eye, and swelling to his head. "
+    },
+    {
+        "name": "NYPD",
+        "crime": "unclear"
+    },
+    {
+        "name": "NYPD",
+        "crime": "unclear"
+    },
+    {
+        "name": "NYPD",
+        "crime": "unclear"
+    },
+    {
+        "name": "New-York-Times"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-04-07T16:00:00.000Z",
+        "title": "To Combat Anti-Asian Attacks, New Yorkers Join Neighborhood Watch Patrols",
+        "description": "A third group would patrol the blocks between Union Street and College Point Boulevard on Roosevelt Avenue, where a man violently shoved an Asian-American woman to the ground outside a bakery in February.\nAsian-Americans are grappling with fear, rage and anxiety brought on by attacks against people of Asian descent, particularly older men and women. In an especially egregious episode a little more than a week ago, a 65-year-old Filipino woman was brutally assaulted in broad daylight outside a luxury apartment building in Midtown Manhattan. Two lobby staff members who witnessed the assault but failed to intervene have been fired.The New York Police Department has received 35 reports of anti-Asian hate crimes already this year, compared with 28 in all of 2020 and only three in 2019. Officials say the data fails to paint a full picture, as many incidents go unreported or are not categorized as hate crimes.",
+        "link": "https://www.nytimes.com/2021/04/08/nyregion/anti-asian-violence-neighborhood-watch.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-31T16:00:00.000Z",
+        "place": "NY",
+        "title": "In the Philippines, Attacks on Asian-Americans Threaten ‘Family’",
+        "description": "MANILA — When a Filipino immigrant was brutally attacked this week on a New York City sidewalk\nIn early February, a 61-year-old Filipino-American man was attacked with a box cutter on the subway after he confronted a stranger who had kicked his tote bag.",
+        "link": "https://www.nytimes.com/2021/04/01/world/asia/asian-attack-new-york-philippines.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-31T16:00:00.000Z",
+        "place": "NY",
+        "title": "An Asian American Poet on Refusing to Take Up ‘Apologetic Space’",
+        "description": "This week, a Filipino woman was attacked in Midtown Manhattan during broad daylight. This assault came on \nthe heels of the Atlanta-area shooting in which six women of Asian descent were killed and amid reports of rising crime against Asians. ",
+        "link": "https://www.nytimes.com/2021/04/01/opinion/sway-kara-swisher-cathy-park-hong.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-30T16:00:00.000Z",
+        "place": "NY",
+        "title": "Man Arrested in Anti-Asian Attack Was on Parole for Killing His Mother",
+        "description": "He was seen on security footage brutally assaulting Vilma Kari, 65, as she was walking to church on Monday morning, the police said.\nMr. Elliot was being charged with two counts of assault as a hate crime and one count of attempted assault as a hate crime, Manhattan’s district attorney, Cyrus R. Vance Jr., said at a news conference.\nhe approached her shouting, “You don’t belong here,” singling her out as Asian, and following up with words that Ms. Kari said she was unable to hear.\nMs. Kari suffered a fractured pelvis and contusions on her body and forehead, according to the draft complaint.",
+        "link": "https://www.nytimes.com/2021/03/31/nyregion/brandon-elliot-asian-attack-nyc.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-30T16:00:00.000Z",
+        "place": "NY",
+        "title": "Prabal Gurung on Anti-Asian Violence, Discrimination and the Duties of Success",
+        "description": "Prabal Gurung:“To watch a video of a 65-year-old woman being brutally attacked is triggering and heart-wrenching, not just for me but for my friends and people from my community.”",
+        "link": "https://www.nytimes.com/2021/03/31/style/prabal-gurung-anti-asian-racism.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-30T16:00:00.000Z",
+        "place": "NY",
+        "title": "In Broad Daylight, Another Anti-Asian Attack",
+        "description": "A 65-year-old Filipino immigrant was walking in Midtown Manhattan when a man kicked her in the stomach, knocking her to the ground. The man repeatedly kicked her in the head and told her, “You don’t belong here,” the police said.\nThe attack, which happened in broad daylight , a security guard closed the door as Ms. Kari struggled to get up.",
+        "link": "https://www.nytimes.com/2021/03/31/nyregion/anti-asian-attack-manhattan.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-30T16:00:00.000Z",
+        "place": "A",
+        "title": "What’s Wrong With Our Hate Crime Laws?",
+        "description": "This month a gunman killed eight people at three Atlanta-area spas, including six women of Asian descent. Authorities say it’s too early to declare the attacks a hate crime.",
+        "link": "https://www.nytimes.com/2021/03/31/opinion/hate-crime-laws.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-29T16:00:00.000Z",
+        "place": "NY",
+        "title": "Biden Announces Actions to Combat Anti-Asian Attacks",
+        "description": "The steps by the federal government to combat racist violence came a day after a man was captured on surveillance video in New York stomping on a 65-year-old Filipino woman while making anti-Asian remarks.",
+        "link": "https://www.nytimes.com/2021/03/30/us/politics/biden-anti-asian-violence.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-29T16:00:00.000Z",
+        "place": "A",
+        "title": "Biden Announces Actions to Combat Anti-Asian Attacks",
+        "description": " Mr. Biden also traveled to Atlanta this month to express grief for victims of a mass shooting in which a gunman killed eight people, six of whom were women of Asian descent.",
+        "link": "https://www.nytimes.com/2021/03/30/us/politics/biden-anti-asian-violence.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-29T16:00:00.000Z",
+        "place": "NY",
+        "title": "Brutal Attack on Filipino Woman Sparks Outrage: ‘Everybody Is on Edge’",
+        "description": "The security camera video was shocking in its brutality. A 65-year-old Filipino immigrant was walking down a street near Times Square when a man, in broad daylight, suddenly kicked her in the stomach.\nShe crumpled to the sidewalk. He kicked her once in the head. Then again. And again. He yelled an obscenity at her, according to a police official, and then said, “You don’t belong here.”\nAs the violent scene unfolded in Manhattan, three men watched from the lobby of a nearby luxury apartment building. When the woman struggled to stand up, one of the men, a security guard, closed the front door to the building.",
+        "link": "https://www.nytimes.com/2021/03/30/nyregion/asian-attack-nyc.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-29T16:00:00.000Z",
+        "place": "NY",
+        "title": "Attack on Asian Woman in Midtown Prompts Another Hate Crime Investigation",
+        "description": "A man kicked a 65-year-old woman to the ground in broad daylight on a Midtown Manhattan sidewalk on Monday, stomped on her several times and made anti-Asian remarks in what the police called another targeted hate crime.",
+        "link": "https://www.nytimes.com/2021/03/30/nyregion/attack-asian-woman-midtown.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-25T16:00:00.000Z",
+        "place": "A",
+        "title": "In a Role Reversal, Asian-Americans Aim to Protect Their Parents From Hate",
+        "description": "In the wake of recent shootings in Atlanta by a white gunman that left eight dead — six of them of Korean or Chinese descent",
+        "link": "https://www.nytimes.com/2021/03/26/well/family/asian-american-hate-racism.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-25T16:00:00.000Z",
+        "place": "A",
+        "title": "Anti-Asian Activity Online, Walking Down the Aisle Alone and Your Brain on Peloton: The Week in Narrated Articles",
+        "description": "Before the Atlanta spa shootings last week, which left eight dead, including six women of Asian descent, anti-Asian rhetoric had been on the rise in various corners of the internet.",
+        "link": "https://www.nytimes.com/2021/03/26/podcasts/asian-hate-crimes-peloton-biking.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-25T16:00:00.000Z",
+        "place": "A",
+        "title": "How The Times Covers Mass Shootings",
+        "description": ", an armed man killed eight people, including six of Asian descent, in the Atlanta area on March 16",
+        "link": "https://www.nytimes.com/2021/03/26/insider/reporters-mass-shootings.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-24T16:00:00.000Z",
+        "place": "A",
+        "title": "Misogyny Fuels Violence Against Women. Should It Be a Hate Crime?",
+        "description": "In Atlanta, a gunman stormed three massage parlors and shot and killed eight people — seven of them women, six of them Asian — raising speculation that the attack was racially motivated. A suspect was arrested that same evening.",
+        "link": "https://www.nytimes.com/2021/03/25/us/misogyny-violence-against-women-hate-crime.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-23T16:00:00.000Z",
+        "place": "A",
+        "title": "I’m a Scholar of Religion. Here’s What I See in the Atlanta Shootings.",
+        "description": "When news about the Atlanta killings broke, I saw in Korean sources first that six of the dead were Asian women, four of Korean descent. ",
+        "link": "https://www.nytimes.com/2021/03/24/opinion/atlanta-shootings-women-religion.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-23T16:00:00.000Z",
+        "place": "A",
+        "title": "2 Immigrant Paths: One Led to Wealth, the Other Ended in Death in Atlanta",
+        "description": "Gold Spa, one of the three Atlanta-area massage parlors where a gunman last week killed eight people and wounded another.",
+        "link": "https://www.nytimes.com/2021/03/24/us/atlanta-shooting-spa-owners.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-23T16:00:00.000Z",
+        "place": "A",
+        "title": "18 Dead. Is This What Getting Back to ‘Normal’ Looks Like?",
+        "description": "Eight dead in Atlanta.",
+        "link": "https://www.nytimes.com/2021/03/24/opinion/guns-shooting-boulder-atlanta.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-19T16:00:00.000Z",
+        "place": "A",
+        "title": "In East Asia, Responses to the Georgia Attacks Were Lean on Outrage",
+        "description": "Six of the eight victims were of Asian descent. But in China and South Korea, debate over the violence played out with far less intensity than it did in the United States.",
+        "link": "https://www.nytimes.com/2021/03/20/world/asia/asia-reaction-atlanta.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-18T16:00:00.000Z",
+        "place": "A",
+        "title": "What We Know About the Victims in the Atlanta Shootings",
+        "description": "Eight people were killed at three massage businesses in Atlanta and nearby Cherokee County on March 16. The suspect in the shootings, Robert Aaron Long, has been charged with eight counts of murder and one count of aggravated assault.\n\nSix of the victims were of Asian descent, and two were white. Seven were women.",
+        "link": "https://www.nytimes.com/2021/03/19/us/atlanta-shooting-victims.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "A",
+        "title": "Joe Biden and Kamala Harris plan to visit with Asian-American leaders in Atlanta.",
+        "description": "“Given the tragedy in Georgia on Tuesday night, President Biden and Vice President Harris will postpone the evening political event in Georgia for a future date,” officials announced in a news release. “During their trip to Atlanta, they will instead meet with Asian-American leaders to discuss the ongoing attacks and threats against the community, meet with other local leaders, and also visit the Centers for Disease Control to receive an update from the team of health and medical experts helping lead the fight against the pandemic.”",
+        "link": "https://www.nytimes.com/2021/03/18/us/biden-harris-atlanta.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "A",
+        "title": "Why Some Georgia Lawmakers Want Last Week’s Shootings Labeled Hate Crimes",
+        "description": "A year ago, Georgia was one of four states that had no hate crime legislation.But the deadly rampage last week that left eight people dead, six of them women of Asian descent, is now providing a test of a law passed last year — and a window into the way that the state’s increasingly diverse electorate has altered its political and cultural chemistry.Now last week’s shootings, in which Robert Aaron Long, 21, has been charged with eight counts of murder, are providing a major stress test for when the legislation can be applied, what it can achieve and how it plays into the state’s increasingly polarized politics.",
+        "link": "https://www.nytimes.com/2021/03/21/us/politics/georgia-hate-crime-atlanta-shootings.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "A",
+        "title": "The suspect had sought treatment for sex addiction, a former roommate says.",
+        "description": "Robert Aaron Long, the man charged with killing eight people in a rampage at Atlanta-area massage parlors, spent several months being treated for what he described as a sex addiction and regularly went to massage parlors for sex, one of his former roommates at a halfway house said.",
+        "link": "https://www.nytimes.com/2021/03/18/us/robert-long-halfway-house.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-16T16:00:00.000Z",
+        "place": "A",
+        "title": "Suspect in Atlanta Spa Attacks Is Charged With 8 Counts of Murder",
+        "description": "ACWORTH, Ga. — A gunman’s rampage that killed eight people, including six women of Asian descent, in the Atlanta area this week has set off a new wave of fear and outrage among Asian-Americans, coming in a year of anti-Asian violence across the country.",
+        "link": "https://www.nytimes.com/2021/03/17/us/atlanta-shooting-spa.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-16T16:00:00.000Z",
+        "place": "A",
+        "title": "What to Know About the Atlanta Spa Shootings",
+        "description": "Eight people were killed when a man opened fire on Tuesday in three Atlanta-area massage businesses. A suspect was arrested about 150 miles south of Atlanta within hours.\n\nSix of the victims were of Asian descent. The shootings put Asian communities across the United States on alert and prompted law enforcement officials to increase patrols.",
+        "link": "https://www.nytimes.com/2021/03/17/us/atlanta-spa-shootings.html?action=click&module=RelatedLinks&pgtype=Article"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-16T16:00:00.000Z",
+        "place": "A",
+        "title": "Women of Asian Descent Were 6 of the 8 Victims in Atlanta Shootings",
+        "description": "In all, eight people were killed at three massage parlors in Atlanta and nearby Cherokee County on Tuesday. The authorities said six of them were of Asian descent and two were white. Seven were women.\nThe shooter, a white man identified as 21-year-old Robert Aaron Long, told the police he had a “sexual addiction” and said the spas were “an outlet for him, something that he shouldn’t be doing.”",
+        "link": "https://www.nytimes.com/2021/03/17/us/asian-women-victims-atlanta-shootings.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-16T16:00:00.000Z",
+        "place": "A",
+        "title": "The Growing Power of Asian-Americans in Georgia Now Comes With Fear",
+        "description": "The report was released the same day that eight people, six of them of Asian descent, were fatally shot at three Atlanta-area massage parlors.",
+        "link": "https://www.nytimes.com/2021/03/17/us/georgia-asian-population.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-15T16:00:00.000Z",
+        "place": "A",
+        "title": "8 People Killed in Atlanta-Area Massage Parlor Shootings",
+        "description": "ACWORTH, Ga. — Eight people were shot to death at three massage parlors in the Atlanta area on Tuesday evening, the authorities said, raising fears that the crimes may have targeted people of Asian descent.\n\nSix of the people killed were Asian, and two were white, according to law enforcement officials. All but one were women.",
+        "link": "https://www.nytimes.com/2021/03/16/us/atlanta-shootings-massage-parlor.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-15T16:00:00.000Z",
+        "place": "A",
+        "title": "Atlanta Shootings Live Updates: Suspect Had Visited Targeted Spas Before, Police Say",
+        "description": "The man charged with killing eight people at three Atlanta-area massage parlors on Tuesday evening had been a customer of at least two of the spas, the police said.",
+        "link": "https://www.nytimes.com/live/2021/03/18/us/atlanta-shootings-massage-spa#the-suspect-had-been-a-customer-at-the-two-targeted-atlanta-spas-police-say"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "A",
+        "title": "Georgia added a hate-crimes law last year after the death of Ahmaud Arbery.",
+        "description": "The suspect, Robert Aaron Long, told investigators that he was driven by what he has described as a sex addiction, not by racism. Six of the eight victims were of Asian descent.\nHate-crime charges for attacks against Asians are rare, as they require proof of a racist motive that can be difficult to establish. Mr. Long was initially charged with eight counts of murder and one count of aggravated assault.",
+        "link": "https://www.nytimes.com/2021/03/18/us/georgia-hate-crime-law.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "36-stabbed-debatable-Feb",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "NY",
+        "title": "Asian-Americans Are Being Attacked. Why Are Hate Crime Charges So Rare?",
+        "description": "On a cold evening last month, a Chinese man was walking home near Manhattan’s Chinatown neighborhood when a stranger suddenly ran up behind him and plunged a knife into his back.\nFor many Asian-Americans, the stabbing was horrifying, but not surprising. It was widely seen as just the latest example of racially targeted violence against Asians during the pandemic.\nBut the perpetrator, a 23-year-old man from Yemen, had not said a word to the victim before the attack, investigators said. Prosecutors determined they lacked enough evidence to prove a racist motive. The attacker was charged with attempted murder, but not as a hate crime.",
+        "link": "https://www.nytimes.com/2021/03/18/nyregion/asian-hate-crimes.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "A",
+        "title": "Asian-Americans Are Being Attacked. Why Are Hate Crime Charges So Rare?",
+        "description": "That frustration erupted on a national scale this week after Robert Aaron Long, a white man, was charged with fatally shooting eight people, including six women of Asian descent, at spas in the Atlanta area on Tuesday night.The Atlanta shootings and other recent attacks have exposed difficult questions involved in proving a racist motive. Did the assaults just happen to involve Asian victims? Or did the attackers purposely single out Asians in an unspoken way that can never be presented as evidence in court?",
+        "link": "https://www.nytimes.com/2021/03/18/nyregion/asian-hate-crimes.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-22T16:00:00.000Z",
+        "place": "A",
+        "title": "Are Hate Crime Laws Really the Answer to Anti-Asian Violence?",
+        "description": "In his address about last week’s spa shootings in Georgia that left eight people dead, including six women of Asian descent, President Biden had only one novel policy prescription for stemming the rising tide of anti-Asian violence in the United States: Whatever the shooter’s motivation, he said, it was time for Congress to pass a new piece of hate crime legislation, the Covid-19 Hate Crimes Act, which had been introduced this month.",
+        "link": "https://www.nytimes.com/2021/03/23/opinion/asian-hate-crimes.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-18T16:00:00.000Z",
+        "place": "A",
+        "title": "The Deep American Roots of the Atlanta Shootings",
+        "description": "Robert Aaron Long, 21, who has been charged with the murder of eight people in Atlanta and nearby Acworth, six of them Asian women, had been arrested on his way to Florida",
+        "link": "https://www.nytimes.com/2021/03/19/opinion/atlanta-shooting-massage-sex-work.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-20T16:00:00.000Z",
+        "place": "A",
+        "title": "There Are Two Asian-Americas, and One Is Invisible",
+        "description": "The night after Robert Aaron Long, a 21-year-old white man, shot and killed eight people inside three Atlanta-area Asian massage businesses",
+        "link": "https://www.nytimes.com/2021/03/21/opinion/atlanta-shooting-asian-massage.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "52-women-attacked-by-white-Feb",
+        "time": "2021-02-25T16:00:00.000Z",
+        "place": "NY",
+        "title": "Attacks on Asian-Americans in New York Stoke Fear, Anxiety and Anger",
+        "description": "“I’ve never cried like that before,” Ms. Cheng said, describing her reaction to security footage that showed her mother being shoved to the ground last week on a crowded street in Flushing, Queens. “To see my mother get thrown like that, she looks like a feather. She looks like a rag doll.”",
+        "link": "https://www.nytimes.com/2021/02/26/nyregion/asian-hate-crimes-attacks-ny.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "A",
+        "title": "The Generational Split in How Asian-Americans See the Atlanta Shootings",
+        "description": "Will these horrific Atlanta murders prove to be a similar turning point? Will this country own the racism and misogyny behind the gunman’s targeting of Asian women? Will Americans finally see these problems as everyone’s problem? And, most important, will they ask what needs to change? As Randy Park, the 23-year-old son of one of the victims, Hyun Jung Grant, said, his question to the shooter’s family is, “What did you-all teach him?”",
+        "link": "https://www.nytimes.com/2021/03/22/opinion/atlanta-shootings-asian-american.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "NY&A",
+        "title": "Anti-Asian Attacks Place Andrew Yang in the Spotlight. How Will He Use It?",
+        "description": "But many Asian-Americans also see in his candidacy an opportunity for representation at the highest level of city government, an increasingly meaningful metric amid violent attacks on Asian-Americans in New York and across the nation, including the fatal shootings in the Atlanta area last week that left eight people dead, six of them women of Asian descent.",
+        "link": "https://www.nytimes.com/2021/03/22/nyregion/andrew-yang-bias-asian-atlanta.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "37-hou-and-other-four",
+        "time": "2021-03-22T16:00:00.000Z",
+        "place": "NY",
+        "title": "Attacks Against Asian New Yorkers: What to Know",
+        "description": "Asian-American communities have been holding vigils and protests after a white gunman attacked Atlanta-area spas last week and killed eight people, including six women of Asian descent.\nAt least five people of Asian descent were attacked in the city over the weekend. On Sunday alone, three people were attacked, including one woman who had attended a demonstration in support of Asian-American victims that day.",
+        "link": "https://www.nytimes.com/2021/03/23/nyregion/asian-new-yorkers-attacks.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "A",
+        "title": "How Racism and Sexism Intertwine to Torment Asian-American Women",
+        "description": "After eight people, six of them Asian women, were fatally shot this week in a rampage near Atlanta, a law enforcement official said that in the gunman’s own words, his actions were “not racially motivated,” but caused by “sexual addiction.”\nThe official, Capt. Jay Baker of the Sheriff’s Office in Cherokee County, where one of the three massage businesses targeted by the gunman was located, cautioned that the investigation was in its early stages. But the implication was clear: It had to be one motive or the other, not both.\nThat suggestion was met with incredulity by many Asian-American women, for whom racism and sexism have always been inextricably intertwined. For them, racism often takes the form of unwanted sexual come-ons, and sexual harassment is often overtly racist.",
+        "link": "https://www.nytimes.com/2021/03/18/us/racism-sexism-atlanta-spa-shooting.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "5-crime",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "NY",
+        "title": "As Protesters Rally Against Anti-Asian Hate, N.Y.C. Records 5 Attacks",
+        "description": "A 68-year-old Sri Lankan man was riding the subway in Lower Manhattan on Friday when another passenger yelled a racial slur and punched him in the head, leaving him bloodied and in critical condition.\nOn Saturday morning, a 66-year-old man of Asian descent was punched in the face on the Lower East Side.\nThen on Sunday came three more attacks",
+        "link": "https://www.nytimes.com/2021/03/22/nyregion/nyc-asian-hate-crimes.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-19T16:00:00.000Z",
+        "place": "A",
+        "title": "There Is No Rung on the Ladder That Protects You From Hate",
+        "description": "Six of the eight people who were killed at this and two other massage parlors in the Atlanta area were women of Asian descent.",
+        "link": "https://www.nytimes.com/2021/03/20/technology/personaltech/asian-american-wealth-gap.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-10T16:00:00.000Z",
+        "place": "A",
+        "title": "Biden condemns ‘vicious’ hate crimes against Asian-Americans.",
+        "description": "President Biden on Thursday evening condemned “vicious” hate crimes against Asian-Americans, who he said have been “attacked, harassed, blamed and scapegoated” during the coronavirus pandemic.\n“They’re forced to live in fear for their lives just walking down streets in America,” Mr. Biden said during a prime-time address at the White House, marking a year since the coronavirus was declared a pandemic by the World Health Organization. “It’s wrong. It’s un-American, and it must stop.”",
+        "link": "https://www.nytimes.com/2021/03/11/us/biden-asian-americans-hate-crimes.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-19T16:00:00.000Z",
+        "place": "A",
+        "title": "Protesters Gather in Atlanta to #StopAsianHate",
+        "description": "ATLANTA — After a week of pain, fear and mourning, Georgia’s capital city hosted a downtown march and rally on Saturday to protest the killing of eight people, six of them women of Asian descent, by a gunman who targeted three Atlanta-area massage businesses.\nHundreds of activists chanted, “Stop Asian hate,” as they departed Woodruff Park in downtown Atlanta, bound for the State Capitol, where they would link up with hundreds more for a rally in the wake of a shooting spree that left eight people dead.",
+        "link": "https://www.nytimes.com/2021/03/20/us/stopasianhate-protest-atlanta.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "Atlanta",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "A",
+        "title": "How Many Women Have to Die to End ‘Temptation’?",
+        "description": "After the attack on three Georgia spas on Tuesday, which took the lives of eight people, Robert Aaron Long, the 21-year-old charged with the slayings, told the police that the women murdered were “temptations” he needed to “eliminate.”\nMr. Long, his onetime roommate told authorities, was deeply ashamed of his history of hiring sex workers, and like so many misogynist killers before him, decided women themselves were to blame.",
+        "link": "https://www.nytimes.com/2021/03/22/opinion/atlanta-shooting-women-violence.html"
+    },
+    {
+        "name": "New-York-Times",
+        "crime": "23-korean-women-Feb",
+        "time": "2021-02-20T16:00:00.000Z",
+        "place": "NY",
+        "title": "What This Wave of Anti-Asian Violence Reveals About America",
+        "description": "A 23-year-old Korean woman in New York was punched in the face last March and accused of having the coronavirus. More incidents followed as the virus spread, with Asian-Americans being spat on, beaten, slashed, even attacked with chemicals.",
+        "link": "https://www.nytimes.com/2021/02/21/opinion/anti-asian-violence.html"
+    },
+    {
+        "name": "World Journal"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-30T16:00:00.000Z",
+        "place": "NY",
+        "title": "Suspect in attack on Asian woman arrested for killing her own mother",
+        "description": "The African-American man who violently attacked a 65-year-old Asian woman on the street in Manhattan, and the 65-year-old Asian woman, Carrie, who was unjustly attacked on her way to church.",
+        "link": "https://www.worldjournal.com/wj/story/121470/5357763"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-29T16:00:00.000Z",
+        "place": "NY",
+        "title": "African-American man kicks Asian woman, yells 'you don't belong here'",
+        "description": "A 65-year-old Asian woman was on her way to church when she was suddenly kicked to the ground by an African-American man, \nwho then proceeded to punch and kick her, using racial slurs and insults \"fuck you, you don't belong here.",
+        "link": "https://www.worldjournal.com/wj/story/121381/5353254"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Asian-male-subway-lockjaw",
+        "time": "2021-03-29T16:00:00.000Z",
+        "place": "NY",
+        "title": "The film / The pursuit of villains: Asian New York subway by African-American violent assault strangled fainted",
+        "description": "Racial Discrimination? Hate Crimes? \nComments on the New York subway brutality against African-Americans are polarized. The video of a man who appeared to be of Asian descent being violently assaulted and strangled to the point of fainting by an African-American man on the New York City subway was reposted on social media, \ncausing a lot of controversy among netizens; as the victim appeared to have first uttered the \"N word\" in an abusive manner against African-Americans, \nsome netizens said they should not start by calling out racist comments, while others said, \"beating someone to death without mercy is a hate crime.",
+        "link": "https://www.worldjournal.com/wj/story/121470/5352831"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "laundromat",
+        "time": "2021-03-29T16:00:00.000Z",
+        "place": "NY",
+        "title": "African-American teenager harasses laundromat, chides owner to go back to China",
+        "description": "Michael Chang, a Chinese-American laundromat owner in Clinton Hill, Brooklyn, for more than 10 years, said he was harassed by a group of African-American teenagers last August, who often picked up trash and threw it on the storefront, and insulted him with racial slurs. A white man passing by came to his rescue, but he was hit in the head with a chair, but fortunately his life was not in danger.",
+        "link": "https://www.worldjournal.com/wj/story/121381/5353267"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "37-female",
+        "time": "2021-03-28T16:00:00.000Z",
+        "place": "NY",
+        "title": "Asian woman beaten in face at New York subway station:Virus is all because of you",
+        "description": "A 37-year-old Asian woman was punched in the face by an unknown man who screamed at her: \"You Chink\" and \"You should go back to your country, this(COVID-19) is all because of you.",
+        "link": "https://www.worldjournal.com/wj/story/121390/5350684"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Asian-male-subway-lockjaw",
+        "time": "2021-03-28T16:00:00.000Z",
+        "place": "NY",
+        "title": "Asian New York subway by African-American violent assault strangled fainted",
+        "description": "A man who appears to be of Asian descent was beaten by an African-American man in a subway car in New York City with a series of heavy punches and a strong choke hold until his hands fell down and he was paralyzed and fainted. \nAccording to the video, which was captured by a witness, the victim appears to be of Asian descent, but the person who took the video indicated to an ABC television reporter that he looked Hispanic.",
+        "link": "https://www.worldjournal.com/wj/story/122060/5352831?from=wj_maintab_cate"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "65-Phillipine-women",
+        "time": "2021-03-27T16:00:00.000Z",
+        "place": "NY",
+        "title": "SNL Chinese Anchor Criticizes Asia-Hating Crimes, Wants 'Grannies to Move'",
+        "description": "The 30-year-old Yang Bo Wen, one of the first Asian actors to debut on the comedy show, said in a rare serious tone, \n\"If it's in some people's nature to beat up an Asian grandmother, that's not communication at all. My grandmother is Asian, and if you want to hit her, we have absolutely nothing in common.",
+        "link": "https://www.worldjournal.com/wj/story/122021/5350912"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "65-female-bluehair",
+        "time": "2021-03-27T16:00:00.000Z",
+        "place": "NY",
+        "title": "Man who called a 65-year-old Asian woman a \"stupid blue-haired Chinese\" is charged with a hate crime",
+        "description": "A 65-year-old Asian woman was teased about her blue hair color and was verbally assaulted on the street by someone who said, \"You stupid blue-haired Chink, you Chinese bitch.\nAccording to city police, Bobby Eli, 48, of East Harlem, saw a 65-year-old Asian woman near the Port Authority on West 40th Street in Midtown and started making fun of her blue hair.\nAfter hearing the taunting, the woman turned to Eli and Eli went further to address her racial taunts by saying, \"You stupid blue-haired Chink, you Chinese bitch, why do you have blue hair?\nWhile he was jeering, Avery waved an unidentified object in his hand at the victim, and the cart he was pushing also contained other unidentified objects.",
+        "link": "https://www.worldjournal.com/wj/story/122020/5350482?from=wj_lastnews_story"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Ching-Chong-NYCHPD",
+        "time": "2021-03-26T16:00:00.000Z",
+        "place": "NY",
+        "title": "New York City housing inspector sends letter to Asian residents addressed to \"Ching Chong",
+        "description": "An employee sent a letter signed \"Ching Chong\" to an Asian resident of Manhattan's Upper East Side after inspecting his apartment; \nthe city later confirmed that the person who sent the letter was the one who sent the anti-Asian racial slur.",
+        "link": "https://www.worldjournal.com/wj/story/122060/5348836"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "65-male",
+        "time": "2021-03-26T16:00:00.000Z",
+        "place": "NY",
+        "title": "Asian seniors in Manhattan hit with racial slurs, suspect swings bat and flees",
+        "description": "A 65-year-old Asian senior citizen was attacked with anti-Asian racial slurs and then threatened with a club-like weapon in Manhattan, New York.",
+        "link": "https://www.worldjournal.com/wj/story/121470/5348822"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "couple-helped-by-Tommy-John",
+        "time": "2021-03-25T16:00:00.000Z",
+        "place": "NY",
+        "title": "Chinese elderly couple attacked to help the bus driver: can not sit idly by",
+        "description": "A Chinese couple was attacked by an African-American man while they were walking with their shopping bags in Benson Heights, Brooklyn. The suspect spit on him and punched him in the face.",
+        "link": "https://www.worldjournal.com/wj/story/121381/5347143"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "police-being-attacked",
+        "time": "2021-03-23T16:00:00.000Z",
+        "place": "NY",
+        "title": "New York Chinese Police Officer Called \"Soy Sauce\" by African-American Man on BLM Parade Duty, \"Eats Dogs and Cats\" for 15 Minutes",
+        "description": "A Chinatown police officer was on duty for the \"Black Lives Are Lives\" march when an African-American man insulted him for 15 minutes with racial slurs such as \"soy sauce\" and \"eat cats and dogs\".\nThe officer, who has been with the Chinatown Police Department for more than 16 years, was sent to the Stonewall neighborhood to coordinate a march for the African-American civil rights movement, and while he was standing with other white officers, an African-American protester walked right up to him and made a series of anti-Asian racial slurs.",
+        "link": "https://www.worldjournal.com/wj/story/122060/5341898"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Flushing Chinese man-attacked-Feb",
+        "time": "2021-03-23T16:00:00.000Z",
+        "place": "NY",
+        "title": "Flushing man verbally assaults Asian and knocks down cell phone",
+        "description": "Police said that at about 5:20 p.m. on the evening of the 21st, in front of 41-25 Kissena Blvd. in Flushing, a 34-year-old Asian man had an argument with the suspect, and then the Asian man took out his cell phone and started shooting video. The Asian victim's cell phone was damaged, but no one was injured in the case.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5339525"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Route 7 ",
+        "time": "2021-03-23T16:00:00.000Z",
+        "place": "NY",
+        "title": "Man involved in verbal assault on Asian on Route 7 knocks down cell phone, Hate Crimes Unit involved in investigation",
+        "description": "According to police sources, a 35-year-old Asian woman reported that at 11:30 a.m. that day, she was riding the No. 7 subway at Flushing's Main Street when an unknown African-American man in the same car kept making hateful comments about Asians.\nThe victim said she was answering the phone in her mother tongue when the African-American man suddenly approached her and knocked her Samsung S9 phone out of her hand; the woman said her phone was knocked to the ground and broken, and the other man kept making insulting remarks about Asians during the attack, so she fled the subway immediately for fear of being attacked again.",
+        "link": "https://www.worldjournal.com/wj/story/122060/5341892"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "25-urine-women",
+        "time": "2021-03-23T16:00:00.000Z",
+        "place": "NY",
+        "title": "White man allegedly urinates on 25-year-old Chinese woman on Queens subway",
+        "description": "Ms. Chen, a 25-year-old Chinese victim, told AsianFeed, \"As I was sitting on the F-Line subway to Queens, a white man walked into the car, he came in from the back of the car, stopped next to me and later started to approach me, I felt uncomfortable and moved to the right, then I found his lower body facing me, and urine appeared on my bag and jacket.\nMs. Chen said, \"I looked at him, but he didn't say anything, I just said to him, 'Are you serious? (Are you serious?) As I looked around, none of the bystanders said or did anything, and the man got off at 75th Avenue.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5339527#:~:text=%E4%B8%80%E5%90%8D%E7%94%B7%E5%AD%90%E6%97%A5%E5%89%8D%E5%9C%A8,%E8%AD%A6%E6%96%B9%E6%AD%A3%E5%9C%A8%E8%AA%BF%E6%9F%A5%E6%AD%A4%E6%A1%88%E3%80%82"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "37-Hou",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "NY",
+        "title": "Chinese woman robbed of placard and beaten at anti-Asian protest",
+        "description": "A 37-year-old Chinese woman named Hou was on her way to one of the demonstrations against violence against Asians in Downtown when an unidentified man approached her, \ngrabbed her placard with anti-Asian violence written on it, tried to throw it in the trash, and then threw it on the ground and stomped on it. When the victim asked the man why he was doing this, he punched her twice in the face.",
+        "link": "https://www.worldjournal.com/wj/story/121381/5337164"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "61-male",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "NY",
+        "title": "Chinese woman robbed of placard and beaten at anti-Asian protest",
+        "description": "The victim, a 61-year-old Asian man, was walking down the street when a man from a parked gray sedan suddenly came up to him and knocked him to the ground.\nThe victim tried to resist, but the assailant, wearing a steel finger tiger, punched him so hard that his head was broken and bleeding.",
+        "link": "https://www.worldjournal.com/wj/story/121381/5337164"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "68-male",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "NY",
+        "title": "Asian Elder Attacked in New York Subway, Suspect Curses 'Damn Asians' in Hate Crime Investigation",
+        "description": "An elderly Sri Lankan Asian man in his 70s was innocently attacked by an African-American in the subway. The suspect first shouted \"You motherf-king Asian\" at him.\nWitnesses said the victim was \"covered in blood\" within seconds and was taken to the hospital but not in life-threatening condition.",
+        "link": "https://www.worldjournal.com/wj/story/122060/5336534"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Atlanta",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "NY",
+        "title": "People take to the streets to shout anti-discrimination messages, and drivers honk their horns in support.",
+        "description": "Hundreds of New Yorkers gathered in Union Square in solidarity with Asians, rallying around Manhattan's Chinese community.\nProtester Shuangye Zhu, 28, holds a sign that reads \"Hate is a virus\" as the crowd reads out the names of the victims of the Atlanta massage and spa shooting.",
+        "link": "https://www.worldjournal.com/wj/story/122060/5335020"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "54-women-I'm here to mess with Asians",
+        "time": "2021-03-21T16:00:00.000Z",
+        "place": "NY",
+        "title": "New York Chinese woman assaulted in the street for no reason, assailant arrested that night",
+        "description": "A 54-year-old Chinese woman was beaten by a man with an iron bar for no apparent reason on the street in Chinatown, resulting in bleeding.\nPolice said the Chinese woman was walking on Grand St. and Ludlow St. when the suspect, 34-year-old Elias Guerrero, approached her with a weapon and shouted, \"Damn Asians! (f-king Asians!)\nWitnesses said the victim was walking on the street in Chinatown at 5:00 p.m. when he was attacked by the man for no apparent reason, and that he hit the victim in the head with a metal bat; the suspect not only used racial slurs and insults several times during the violence, but also said, \"I'm here to mess with Asians.",
+        "link": "https://www.worldjournal.com/wj/story/122060/5336523"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Atlanta",
+        "time": "2021-03-20T16:00:00.000Z",
+        "place": "NY",
+        "title": "Thousands of people participate in New York City's anti-hate march, crowding Columbus Park",
+        "description": "In response to the misunderstanding of the Asian community and the frequent hate crimes since the new pneumonia epidemic, \nthe Asian community held a \"March Against Hate\" in Columbus Park in Manhattan on the 21st.",
+        "link": "https://www.worldjournal.com/wj/story/121470/5334193"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Atlanta",
+        "time": "2021-03-20T16:00:00.000Z",
+        "place": "NY",
+        "title": "Thousands Rally Against Asian-American Hate Crimes in New York's Union Square",
+        "description": "Thousands of people rallied at Union Square in Manhattan on the 21st to oppose hate crimes against \nAsians and to call on Asians and Africans to unite to fight racial discrimination.",
+        "link": "https://www.worldjournal.com/wj/story/122021/5334194"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Atlanta",
+        "time": "2021-03-20T16:00:00.000Z",
+        "place": "A",
+        "title": "Killer blamed for being seduced Asian woman treated as sex object Academics: echoing long-standing stereotypes",
+        "description": "Asian women have been treated as sex objects, according to a number of Asian women scholars and \nexperts who have pointed out that this is the latest horrific chapter in the history of the humiliation of \"Asian women being relegated to the status of sex objects.",
+        "link": "https://www.worldjournal.com/wj/story/121186/5332894"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Lower East Side protesters-police-released",
+        "time": "2021-03-20T16:00:00.000Z",
+        "place": "NY",
+        "title": "Lower East Side protesters shout \"Chinese\" and beat Chinese man, police investigate as potential hate crime",
+        "description": "The suspect not only threatened but also shouted \"Chinese\" several times, and police are investigating the case as a potential hate crime.\nThe assailant told the Chinese victim, \"If I see you around here again, I'll beat you up again. And \"I'm going to beat you up now. The suspect punched the victim right in the face, above the eyes, and the victim froze in place after the attack, said Lin, a Chinese witness.",
+        "link": "https://www.worldjournal.com/wj/story/121381/5332770"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Atlanta",
+        "time": "2021-03-19T16:00:00.000Z",
+        "place": "A",
+        "title": "\"We Are Not a Virus\" speaks out for all Asians in many cities across the country",
+        "description": "The shooting at three massage parlors in Atlanta that claimed eight lives, six of them Asian, has once again awakened the Asian community; on the 20th, in front of the Georgia State Capitol in Atlanta, people gathered to launch a \"Stop Asian Hate\" march, and in major cities across the United States, Asian people took to the streets chanting \"We are not a virus\" and defending Asian civil rights. There were also people who went to the scene of the shooting in Asia to lay flowers and mourn.",
+        "link": "https://www.worldjournal.com/wj/story/121468/5332740"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "General",
+        "time": "2021-03-19T16:00:00.000Z",
+        "place": "NY",
+        "title": "In addition to reporting hate crimes to the police, there are many ways to get help",
+        "description": "There are many ways to seek help in the event of a hate crime or racial discrimination, in addition to reporting it to the police.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5331529"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Atlanta&36-stabbed-debatable-Feb",
+        "time": "2021-03-19T16:00:00.000Z",
+        "place": "NY&A",
+        "title": "Why is it so difficult to prosecute hate crimes when Asians are often attacked?",
+        "description": "The shooting at the massage parlor in Atlanta, as well as the many attacks on Asians before that, have rarely resulted in arrests or indictments on hate charges. Police say that racial hate charges against Asians lack clear definitions, unlike the hanging of African-Americans and Jews or the Nazi anti-wannabe symbols, and that it is difficult to determine the motive of the suspect for attacking Asians.\n\nThe New York Times reported that one night in February, a Chinese man was walking back to his house in the Manhattan neighborhood of New York City when a stranger appeared out of nowhere and stabbed him in the back.",
+        "link": "https://www.worldjournal.com/wj/story/121186/5331467"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "walk-dog",
+        "time": "2021-03-18T16:00:00.000Z",
+        "place": "NY",
+        "title": "Asian woman walking her dog near Chinatown suddenly spit on and called \"Fucking Chink",
+        "description": "Police said the 33-year-old Asian victim was walking her dog near 12 Spring Street, not far from Chinatown, at about 8 p.m. on the 17th when an unknown man started shouting \"Chink\" at her and spitting at her, and the victim asked her why she was being yelled at, and the man continued to shout \"stupid Chink\" at her and told her to \"go back to her country.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5328828#:~:text=%E4%B8%80%E5%90%8D33%E6%AD%B2%E7%9A%84,%E5%B0%8F%E7%B5%84%E6%AD%A3%E8%AA%BF%E6%9F%A5%E5%81%B5%E8%BE%A6%E4%B8%AD%E3%80%82"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Korean-blog",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "NY",
+        "title": "The white woman who called the Korean woman \"go back to Communist China\" is the daughter of the late U.S. Senator.",
+        "description": "The identity of the white woman who attacked a Korean woman on a Manhattan street, yelling at her to \"go back to Communist China,\" was revealed to be Maura \nMoynihan, daughter of the late Democratic U.S. Senator Daniel Patrick Moynihan, but she claimed she had no racial bias or prejudice against Asians. Police defined the incident as a harassment.",
+        "link": "https://www.worldjournal.com/wj/story/121469/5328547"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "6-Chinese-killChinese-nazi",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "NY",
+        "title": "Chinese man arrested and charged for leaving messages and graffiti \"Kill the Chinese Nazis\" 6 times",
+        "description": "A Chinese-American man is suspected of leaving hate speech graffiti or notes such as \"Kill the Chinese\" ”Overthrew all Chinese Banks; Kill Chinese Nazisand \nNazi“ swastikas on at least six shopping malls and billboards in Flushing last week, police said on the 17th that he was arrested and brought to justice for hate crimes, crminal damage and graffiti. ",
+        "link": "https://www.worldjournal.com/wj/story/121382/5326345"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Korean-blog",
+        "time": "2021-03-14T16:00:00.000Z",
+        "place": "NY",
+        "title": "Korean blogger gets yelled at by white woman in Manhattan: \"Go back to communist China, x\"",
+        "description": "A Korean fashion blogger in New York was yelled at by a white woman on the 14th while she was out shooting, You're not from here, go back to communist China bitch.",
+        "link": "https://www.worldjournal.com/wj/story/122020/5320427?from=wj_maintab_index"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "6-Chinese-killChinese-nazi",
+        "time": "2021-03-13T16:00:00.000Z",
+        "place": "NY",
+        "title": "Flushing Mall: \"Kill the Chinese Nazis",
+        "description": "In the restroom of the mall building located at 42-35 Main Street in Flushing, it was revealed that a paper \ntowel with the message \"Overthrew all Chinese Banks; Kill Chinese Nazis\" was posted, causing concern to the surrounding businesses.",
+        "link": "https://www.worldjournal.com/wj/story/122020/5316974"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "83-Korean",
+        "time": "2021-03-11T16:00:00.000Z",
+        "place": "NY",
+        "title": "Korean woman in her 80s spat on, beaten into coma by protesters in Westchester County, New York",
+        "description": "A Westchester County woman in her eighties was attacked for no reason by a transient while scavenging \noutside a shopping center this week, spitting and then being beaten, causing her to fall unconscious on the ground.",
+        "link": "https://www.worldjournal.com/wj/story/121470/5314736?from=wj_breaknews_index"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "25-mother-and-son",
+        "time": "2021-03-11T16:00:00.000Z",
+        "place": "NY",
+        "title": "Korean woman in her 80s spat on, beaten into coma by protesters in Westchester County, New York",
+        "description": "A 25-year-old Korean mother was verbally abused with a Chinese virus and spat on three times in the streets of Fresh Meadows.",
+        "link": "https://www.worldjournal.com/wj/story/121470/5314736?from=wj_breaknews_index"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "2-restaurant-attacked",
+        "time": "2021-03-17T16:00:00.000Z",
+        "place": "NY",
+        "title": "2 Chinatown Restaurants Vandalized, Hate Crimes Rampant, Businesses Close for the Evening",
+        "description": "The owners said on the 17th that the recent surge in hate crimes against Asians, coupled with the death of six Asian women in a massage parlor shooting in Atlanta on the 16th, has made Chinatown businesses feel quite scared and have closed their doors in the evening. The police have been working hard to keep the city open. The New York City Police Department has increased its police presence in the city's Asian communities to ensure public safety.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5326547"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "25-mother-and-son",
+        "time": "2021-03-10T16:00:00.000Z",
+        "place": "NY",
+        "title": "Asian mother and son insulted with \"Chinese virus\" Asian Hate Crimes Task Force steps in to investigate",
+        "description": "A mother and son of Asian descent in Queens were spat on three times by racists in the street during the day, and insulted the \"Chinese virus\", triggering discontent in the Asian community; for this, the city police \"Asian Hate Crimes Task Force\" said on the 11th, the team of officers have been involved in the investigation of the case, appealing for information to provide clues to the suspects.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5312312"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "56-Zhang Mingshun",
+        "time": "2021-03-07T16:00:00.000Z",
+        "place": "NY",
+        "title": "The victim, Zhang Mingshun, urged the Chinese to report the incident.",
+        "description": "A strange man standing at the entrance of the subway station, waiting for 56-year-old Zhang Mingshun approached, suddenly turned and fist fight, Zhang \nMingshun was beaten and fell to the ground, hit his head, the man continued to beat him until he lost consciousness before stopping, easily over the subway gate, walking into the subway station.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5302016"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "36-stabbed-debatable-Feb",
+        "time": "2021-02-28T16:00:00.000Z",
+        "place": "NY",
+        "title": "Chinese stabbed, turned in suspect with history of mental illness, not charged with hate crime",
+        "description": "The suspect, Salman Muflihi, who stabbed a 36-year-old Chinese man for no reason on the street in Manhattan's Chinatown, was charged with attempted \nsecond-degree murder, but prosecutors did not charge him with a hate crime; police said Muflihi turned himself in to police and said, \"I stabbed that man, he's dead, I don't care.",
+        "link": "https://www.worldjournal.com/wj/story/121390/5285268"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "xian-restaurant",
+        "time": "2021-03-01T16:00:00.000Z",
+        "place": "NY",
+        "title": "Staff also subject to unprovoked attacks \"Xi'an Famous Food\" closed early for safety",
+        "description": "The CEO of Xi Famous Foods, a well-known Chinese restaurant chain in New York City, Monty Wang, recently spoke out about the frequent cases of Asian attacks, saying that two of his employees were also attacked for no apparent reason, and that his restaurant now closes early to ensure that his employees can go home safely. I hope that New York will continue to maintain its spirit as the most cosmopolitan city.",
+        "link": "https://www.worldjournal.com/wj/story/121381/5287481#:~:text=%E7%B4%90%E7%B4%84%E5%B8%82%E7%9F%A5%E5%90%8D%E9%80%A3%E9%8E%96%E4%B8%AD,%E5%85%83%E5%A4%A7%E9%83%BD%E5%B8%82%E7%9A%84%E7%B2%BE%E7%A5%9E%E3%80%82"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Kill Chinks-on-subway",
+        "time": "2021-03-01T16:00:00.000Z",
+        "place": "NY",
+        "title": "New York subway \"kill the Chinese\" graffiti city police: has notified the MTA to clean up",
+        "description": "A Chinese passenger on an R train saw \"Kill Chinks\" scrawled on a seat and immediately reported it to the Metropolitan Transportation Authority (MTA). After a week of waiting, the police and MTA contacted the passenger and told him that the graffiti would be cleaned up.",
+        "link": "https://www.worldjournal.com/wj/story/122020/5287476#:~:text=%E7%B4%90%E7%B4%84%E5%B8%82%E8%BF%91%E6%9C%9F%E9%A0%BB%E7%B9%81%E7%99%BC%E7%94%9F,%E4%B8%8A%E5%A0%B1%E5%BF%85%E6%9C%83%E8%99%95%E7%90%86%E3%80%8D%E3%80%82"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "gym-manager",
+        "time": "2021-03-10T16:00:00.000Z",
+        "place": "NY",
+        "title": "Chinese manager of gym is insulted, \"Go back to China\", man fired for discrimination",
+        "description": "A man in Brooklyn was filmed by a member of the public after he insulted a Chinese male manager of Blink Fitness for \"going back to China\" after being asked to wear a mask. The man, a real estate agent, was also fired from his job as a result of the incident.",
+        "link": "https://www.worldjournal.com/wj/story/121470/5309562"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Kill Chinks-mask-on-street",
+        "time": "2021-03-14T16:00:00.000Z",
+        "place": "NY",
+        "title": "Chinese murder masks found on the streets of Brooklyn's Chinese community",
+        "description": "A muzzle with \"China Kills\" written on it suddenly appeared on the street in Brooklyn's Chinese neighborhood of Dyker Heights on the 14th.\nHazel Chen, a Chinese woman living in Dyker Heights, was walking to the grocery store at around 10:40 a.m. on the morning of the 14th when she spotted a mask on the ground at the corner of 13th Avenue and 66th Street with the words \"China Kills\" written on it in black marker.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5318561"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Lower East Side protesters-police-released",
+        "time": "2021-03-20T16:00:00.000Z",
+        "place": "NY",
+        "title": "Lower East Side protesters shout \"Chinese\" and assault Chinese man, police investigate as potential hate crime",
+        "description": "A Chinese man was beaten by a prowler with his fists in the street. The suspect not only made threats, but also shouted \"Chinese\" several times, which police have classified as a potential hate crime investigation.\nPolice said the case happened at about 9 a.m. on the 20th, when a Chinese man parked his car in front of 196 Allen St. near Houston St. He was getting out of his car to check his parking meter to make sure he could park; then a prowler approached him and raised his fist and hit him in the head.",
+        "link": "https://www.worldjournal.com/wj/story/122020/5332770"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Long Island-female-attacked",
+        "time": "2021-03-13T16:00:00.000Z",
+        "place": "NY",
+        "title": "Chinese woman on Long Island was choked in the street and almost lost her eyesight \n\n",
+        "description": "The Nassau County Sheriff's Office has zero records of Asian hate crimes, but there are many cases of insults and attacks against Asians in the community, said Long Island Chinese Association President Michael Chang.\nHe said a Nassau County public hospital employee recently told him that a Chinese woman was choked by a foreigner on the street for no apparent reason and was then repeatedly punched in the eye, causing the woman to be nearly blinded when she was taken to the hospital.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5316975"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "13-teen",
+        "time": "2021-03-16T16:00:00.000Z",
+        "place": "NY",
+        "title": "New York Asian Teenager Attacked in Park: \"Stupid Chinese, Go Back to Your Country",
+        "description": "A 13-year-old Asian teenager was pushed by multiple people near a park in Flushing, repeatedly attacked with a basketball to the head, and called \"stupid Chinese, go back to your country\" and other discriminatory language during the attack.",
+        "link": "https://www.worldjournal.com/wj/story/121473/5325835"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "Harlem man-police-mentioned",
+        "time": "2021-03-14T16:00:00.000Z",
+        "place": "NY",
+        "title": "\"Damn Chinese, go back to China\" Harlem man beats Asian man in the street",
+        "description": "The number of crimes against Asians continues to rise, with a hate attack in Manhattan's Harlem neighborhood occurring recently when a light-skinned man yelled \"Fucking Chinese, go back to China\" after hitting an Asian man on the street, followed by a fist fight. The man is now wanted by the 32nd Precinct.",
+        "link": "https://www.worldjournal.com/wj/story/121470/5320356"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "25-mother-and-son",
+        "time": "2021-03-10T16:00:00.000Z",
+        "place": "NY",
+        "title": "Asian mother and son in Queens are accused of \"Chinese virus\" and spat on 3 times in the street",
+        "description": "A mother and son of Asian descent in Queens were racially profiled three times during the day and called \"Chinese virus\", triggering discontent in the Asian community.\nAccording to the NYPD, a 25-year-old Asian woman reported that she was harassed by someone near the Flushing Kissena Corridor Park at 186th Street and Peck Avenue around 10:30 a.m. to 11:30 a.m. on the 9th.\nThe victim said an unknown man spat at her and her 2-year-old child three times and called them a \"Chinese virus\" before fleeing in an unknown direction.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5312312"
+    },
+    {
+        "name": "World-Journal",
+        "crime": "36-stabbed-debatable-Feb",
+        "time": "2021-03-27T16:00:00.000Z",
+        "place": "NY",
+        "title": "Thousands protest against Asian discrimination in Manhattan",
+        "description": "A 36-year-old Chinese man was attacked from behind with an 8-inch knife by a 23-year-old Yemeni man on his way home from the Federal Courthouse (Daniel Patrick Moynihan U.S. Courthouse), not far from Foley Square, and was seriously injured.\n\nBut at his arraignment in Manhattan Criminal Court on the 27th, the prosecutor dropped the hate crime charges, leaving the suspect charged with attempted murder and attempted assault. The suspect was only charged with two counts of attempted murder and attempted assault.",
+        "link": "https://www.worldjournal.com/wj/story/121382/5283566"
+    }
 ]
