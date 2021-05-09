@@ -89,6 +89,7 @@ let viz = d3.select("#vizContainer1")
     .style("background-color", "#fff9f9")
     ;
 
+
 let graphPadding = 20;
 let graphW = 600;
 let graphH = 400;
@@ -1142,7 +1143,7 @@ function gotData(incomingData) {
 
                 elementGroup.selectAll(".datagroup")
                     .transition()
-                    .duration(1000)
+                    .duration(800)
                     .attr("transform", (d, i) => {
                         return "translate(" + d.x + "," + d.y + ")"
                     })
@@ -1152,7 +1153,7 @@ function gotData(incomingData) {
             // xAxisGroup.attr("opacity", 0)
             elementGroup.selectAll(".datagroup")
                 .transition()
-                .duration(1000)
+                .duration(800)
                 .attr("transform", (d, i) => {
                     let x = xScale(timeParseFunction(d.time));
                     let y = Math.random() * 300 - 600;
@@ -1253,7 +1254,7 @@ function gotData(incomingData) {
 
                 d3.selectAll(".datagroup")
                     .transition()
-                    .duration(1000)
+                    .duration(700)
                     .attr("transform", (d, i) => {
 
                         return "translate(" + d.x + "," + d.y + ")"
@@ -1310,7 +1311,7 @@ function gotData(incomingData) {
 
                 d3.selectAll(".datagroup")
                     .transition()
-                    .duration(1000)
+                    .duration(700)
                     .attr("transform", (d, i) => {
 
                         return "translate(" + d.x + "," + d.y + ")"
@@ -1361,7 +1362,7 @@ function gotData(incomingData) {
                 .attr("opacity", 1)
                 .transition()
                 .delay(50)
-                .duration(300)
+                .duration(100)
                 .attr("transform", getranddomGroupPositionzero)
                 .attr("opacity", 0)
                 .transition()
