@@ -146,11 +146,38 @@ let viz = d3.select("#container").append("svg")
   .style("background-color", "black")
   ;
 
-
+var linkInfo = {
+  'nodes': [],
+  'links': []
+};
 
 
 
 d3.json("mainland.geojson").then(function (geoData) {
+  console.log(geoData)
+
+
+  geoData.features.forEach((d, i) => {
+    linkInfo.nodes.push({ id: d.province });
+  })
+
+
+
+  linkInfo.nodes.forEach((d1, i) => {
+    linkInfo.nodes.forEach((d2, j) => {
+      if (i > j)
+        linkInfo.links.push({
+          'source': d1.id,
+          "target": d2.id
+        })
+    });
+
+  })
+
+  console.log(linkInfo);
+
+
+
   d3.csv('china-pop-2018.csv').then(function (incomingData) {
 
     console.log(incomingData);
@@ -288,21 +315,22 @@ d3.json("mainland.geojson").then(function (geoData) {
       .style('pointer-events', 'none');
 
 
+
     // d3.json("miserables.json").then(function(graph) {
 
-    //   var label = {
-    //       'nodes': [],
-    //       'links': []
-    //   };
+    // var label = {
+    //     'nodes': [],
+    //     'links': []
+    // };
 
-    //   graph.nodes.forEach(function(d, i) {
-    //       label.nodes.push({node: d});
-    //       label.nodes.push({node: d});
-    //       label.links.push({
-    //           source: i * 2,
-    //           target: i * 2 + 1
-    //       });
-    //   });
+    // graph.nodes.forEach(function(d, i) {
+    //     label.nodes.push({node: d});
+    //     label.nodes.push({node: d});
+    //     label.links.push({
+    //         source: i * 2,
+    //         target: i * 2 + 1
+    //     });
+    // });
 
 
   })

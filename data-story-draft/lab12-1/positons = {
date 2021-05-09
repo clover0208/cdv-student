@@ -1,0 +1,14 @@
+positons = {
+    "groupa":{
+        x:100,
+        y:100,
+    }
+    "
+
+
+}
+
+
+d=>{
+    let x = positions[d.groupname].x
+}

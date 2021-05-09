@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://d3js.org/d3-axis.v1.min.js"></script>
+  <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+  <script src="https://d3js.org/d3-array.v2.min.js"></script>
+  <!-- see the script.js file for infor about this library: -->
+  <script src="https://unpkg.com/enter-view"></script>
+
+</head>
+
+<body>
+  <div class="partOne section sectionWithStick">
+    <div id="vizContainer1" class="sticky fullscreen">
+
+    </div>
+    <div class="scrollingContent">
+      <div class="fullscreen">
+        <h1>HELLO HELLO</h1>
+      </div>
+      <div class="fullscreen stepOne">
+        <h1 id="theworld">The World</h1>
+      </div>
+      <div class="fullscreen stepTwo">
+        <h1>LIFE</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover">
+    <div class="book">
+      <label for="page-1" class="book__page book__page--1">
+        <img src="./">
+      </label>
+
+      <label for="page-2" class="book__page book__page--4">
+        <div class="page__content">
+          <h1 class="page__content-title">Monologue:Interests and Limitations</h1>
+          <div class="page__content-blockquote">
+            <p class="page__content-blockquote-text">I started my interet when I saw videos of granny Xie in San
+              Francisco being attacked then she fought back. As a student who hope to study in New York one day, I
+              investigate the reports about Asian American Hate Crime to know what's happening there
+            </p>
+            <p class="page__content-blockquote-text">What trigers my interets about suspect's race is in one police
+              announcement: Watch as @NYPDShea updates the media on new Asian
+              hate crime initiatives. I was shocked by one picture that six suspects all belongs to
+              the minority group.
+            </p>
+            <p class="page__content-blockquote-text">Since I already began my research, I recognized some of the six and
+              I knew that, some light-skin man also did something bad because the Wordl Journal report thoses
+              crimes at the same time. But why are the light-skin missing? If you watch the video, you will see, 8 out
+              of 10 belongs to monority. But if you research, there also exist some crimes commited
+              by
+              light-skin that not accused of hate crime</p>
+            <!-- <span class="page__content-blockquote-reference">Encyclopedia Galactica*</span> -->
+          </div>
+          <div class="page__content-blockquote-text">
+            <p>Also I admit, from the three group I select, I can't tell all the Hate Crime targeted Asian American Hate
+              Crime. But since my purpose is to raise people's awareness and open discussions, I hope I can let readers
+              focus more on what I present.</p>
+          </div>
+          <div class="page__number">3</div>
+        </div>
+      </label>
+
+      <!-- Resets the page -->
+      <input type="radio" name="page" id="page-1" />
+
+      <!-- Goes to the second page -->
+      <input type="radio" name="page" id="page-2" />
+      <label class="book__page book__page--2">
+        <div class="book__page-front">
+          <div class="page__content">
+            <h1 class="page__content-book-title">End Note</h1>
+            <h2 class="page__content-author">Chenglin Li</h2>
+
+            <p class="page__content-credits">
+              Created with
+              <span>Self-collected Data</span>
+            </p>
+
+            <p class="page__content-credits">
+              Hope to
+              <span>Open dicsussion</span>
+            </p>
+
+            <div class="page__content-copyright">
+              <p>Asian Amercian Hate Crime</p>
+              <p>New York</p>
+            </div>
+          </div>
+        </div>
+        <div class="book__page-back">
+          <div class="page__content">
+            <h1 class="page__content-title">Data Collection</h1>
+            <table class="page__content-table">
+              <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To begin my research, I choose three influential
+                groups who share different readers. Police department offers official and relatively credible
+                information about the AAHC cases while the other two media offer different angles and opinions towards
+                the same issue. New York Times is one of the most popular main stream newspaper in New York. Thw World
+                Journal Newspaper is the largest Chinese language newspaper in the US.
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To
+                get detailed information about Asian American
+                Hate crimehappened in New York, I checked multiple sources. For NYPD, I checked their
+                offcial website,
+                the information they released on Facebook
+                Account and
+                their twitter account. I watch every post they wrote as well as watching all the video and live
+                streaming recording from Jan to March.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For New York Times, I checked their offcial
+                website. I filted by date and I read through all the post which may connected with Asian American Hate
+                crime. I didn't use the word filter because the word filter may be inaccurate. Also I only record crime
+                reported by the New York Times instead of some articles cited by the New York Times. I only record
+                artcicles published on the main cite because this show how they write the crime, intsead of how other
+                cite write the crime.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the
+                World Journal, I checked all the post published on their website because their word filter may also be
+                inaccurate.Scrolling and reading all
+                the post can be time wasting but I believe that's the best way to avoid missing information.
+
+              </td>
+              <!-- (https://twitter.com/nypdtips?lang=en) -->
+              <!-- (https://www1.nyc.gov/site/nypd/index.page) -->
+              <!-- (https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2FNYPD%2F) -->
+              <!-- (https://www.pscp.tv/w/1jMKgpqjEolGL?fbclid=IwAR2soIl2dqhZuZt18WrR6YE-_j4N2HJYECjURXYPV3WSSapTVKXV8HQMmYA&t=26s) -->
+            </table>
+
+            <div class="page__number">2</div>
+          </div>
+        </div>
+      </label>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
