@@ -41,7 +41,7 @@ let data = [
   },
 ]
 
-
+console.log(xScale.invert(graphPadding + graphW / 2))
 
 
 let graphGroup = viz.append('g').attr('class', 'graphGroup');

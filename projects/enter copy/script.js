@@ -1,87 +1,11 @@
-const intrototitle = document.getElementById('intrototitle');
-const intrototitleInnerHTML = intrototitle.innerHTML
-    .split(/<br>\s*/i)
-    .map((text, i) => '<p style="animation-delay:' + (400 * i) + 'ms">' + text + '</p>')
-    .join('');
 
-intrototitle.innerHTML = intrototitleInnerHTML;
-
-const target = document.getElementById('target');
-const targetInnerHTML = target.innerHTML
-    .split(/<br>\s*/i)
-    .map((text, i) => '<p style="animation-delay:' + (2000 * i) + 'ms">' + text + '</p>')
-    .join('');
-
-target.innerHTML = targetInnerHTML;
-
-const introdensity = document.getElementById('introdensity');
-const introdensityInnerHTML = introdensity.innerHTML
-    .split(/<br>\s*/i)
-    .map((text, i) => '<p style="animation-delay:' + (2000 * i + 1000) + 'ms">' + text + '</p>')
-    .join('');
-
-introdensity.innerHTML = introdensityInnerHTML;
-
-
-// const whatsuspecttell = document.getElementById('whatsuspecttell');
-// const whatsuspecttellInnerHTML = whatsuspecttell.innerHTML
-//     .split(/<br>\s*/i)
-//     .map((text, i) => '<p style="animation-delay:' + (2000 * i) + 'ms">' + text + '</p>')
-//     .join('');
-
-// whatsuspecttell.innerHTML = whatsuspecttellInnerHTML;
-
-var scrollpos = window.scrollY;
-
-document.addEventListener("scroll", function () { showFunction() });
-
-function showFunction() {
-
-    if (document.documentElement.scrollTop > 763) {
-        document.getElementById("intrototitle").style.display = "block";
-    } else {
-        document.getElementById("intrototitle").style.display = "none";
-    }
-
-    if (document.documentElement.scrollTop > 910) {
-        document.getElementById("target").style.display = "block";
-    } else {
-        document.getElementById("target").style.display = "none";
-    }
-
-
-    if (document.documentElement.scrollTop > 1780) {
-        document.getElementById("introdensity").style.display = "block";
-    } else {
-        document.getElementById("introdensity").style.display = "none";
-    }
-
-    // if (document.documentElement.scrollTop > 4230) {
-    //     document.getElementById("whatsuspecttell").style.display = "block";
-    // } else {
-    //     document.getElementById("whatsuspecttell").style.display = "none";
-    // }
-
-    // if (document.documentElement.scrollTop > 3953) {
-    //     document.getElementById("forcegraphstart").style.display = "block";
-    // } else {
-    //     // document.getElementById("forcegraphstart").style.display = "none";
-    // }
-    console.log(document.documentElement.scrollTop);
-}
-
-
-//d3 come
-// let w = 1000;
-// let h = 1000;
 let padding = 50;
 let yPadding = 180;
 let xPadding = 120;
 let w = window.innerWidth;
 let h = window.innerHeight;
 
-// https://stackoverflow.com/questions/16265123/resize-svg-when-window-is-resized-in-d3-js/25978286#25978286
-// https://chartio.com/resources/tutorials/how-to-resize-an-svg-when-the-window-is-resized-in-d3-js/
+
 let viz = d3.select("#vizContainer1")
     .append("svg")
     .attr("width", w)
@@ -120,15 +44,7 @@ let generalViz = d3.select("#generalcontainer")
     .attr("class", "biggeneral")
     ;
 
-let timelineViz = d3.select("#timelinecontainer")
-    .append("svg")
-    .style("width", 1000)
-    .style("height", 800)
-    .attr("x", 10)
-    .attr("y", 10)
-    // .style("background", '#BCC5F7')
-    .attr("class", "timelineviz")
-    ;
+
 
 
 
@@ -155,20 +71,6 @@ function gotData(incomingData) {
         let y = 0;
         return "translate(" + x + "," + y + ")"
     };
-
-    // generalGroups.attr("transform", getranddomGroupPositionzero)
-    //     .transition()
-    //     .delay(50)
-    //     .duration(300)
-    //     .attr("transform", getranddomGroupPositionzero)
-    //     .attr("opacity", 0)
-    //     .transition()
-    //     .delay(50)
-    //     .duration(300)
-    //     // .delay(function(i){return i})
-    //     .attr("transform", getGroupPositionzero)
-    //     .attr("opacity", 1)
-    //     ;
 
     let generalrects = generalGroups.append('rect')
         .attr("fill", colorone)
@@ -230,7 +132,6 @@ function gotData(incomingData) {
         let y = h / 2 - graphH / 2 - 20;
         return "translate(" + x + "," + y + ")"
     })
-        .attr("fill", "black")
         ;
 
     let elementGroup = vizGroup.append('g').attr('class', 'elementGroup');
@@ -596,36 +497,25 @@ function gotData(incomingData) {
 
 
 
-    // vizGroup.append('line')
-    //     .style("stroke", "black")
-    //     .style("stroke-width", 2)
-    //     .attr("opacity",0.6)
-    //     .attr("x1", 500)
-    //     .attr("y1", 2500)
-    //     .attr("x2", 500)
-    //     .attr("y2", 3000); 
-    // elementGroup.on("mouseover", function (d, i) {
-    //     datagroup.select(this)
-    //         .select("circle")
-    //         .transition()
-    //         .attr("opacity", 1);
-    //     var content = document.getElementsByClassName('datagroup');
-    //     var textcontent = document.createElement("P");
-    //     textcontent.innerText = "DEATH INFORMATION" + "\n" + d.description + "\n" + d.link;
-    //     content.innerHTML = "";
-    //     content.appendChild(textcontent);
-    //     console.log(content.appendChild(textcontent))
-    //     d3.select(".datagroup").transition().delay(200).style("opacity", 1)
-    //     // d3.select("#top").style("opacity",0)
+    elementGroup.on("mouseover", function (d, i) {
+        datagroup.select(this)
+            .select("circle")
+            .transition()
+            .attr("opacity", 1);
+        var content = document.getElementsByClassName('datagroup');
+        var textcontent = document.createElement("P");
+        textcontent.innerText = "\n" + d.description + "\n" + d.link;
+        content.innerHTML = "";
+        content.appendChild(textcontent);
+        console.log(content.appendChild(textcontent))
+        d3.select(".datagroup").transition().delay(200).style("opacity", 1)
 
-    //     // document.getElementById("textcontent").innerHTML="jytcjuytcjuycjyoaishdosifhosijoiajiooijoijoaisjdoijsd";
+    })
+        .on("mouseout", function (d, i) {
+            d3.select("circle").attr("r", 5);
+            d3.select(".datagroup").style("opacity", 0)
 
-    // })
-    //     .on("mouseout", function (d, i) {
-    //         d3.select("circle").attr("r", 5);
-    //         d3.select(".datagroup").style("opacity", 0)
-    //         //   d3.select("#top").style("opacity",1)
-    //     })
+        })
 
 
 
@@ -1163,26 +1053,141 @@ function gotData(incomingData) {
     updateViz();
 
 
+
+
+    let force = d3.forceSimulation(incomingData)
+        .force('forceX', d3.forceX(forceXone))
+        .force('forceY', d3.forceY(forceYone))
+        .force('collide', d3.forceCollide(10))
+        .tick(400)
+        .on("end", function () {
+            incomingData.forEach(node => {
+                node.yearx = node.x;
+                node.yeary = node.y;
+            });
+
+
+
+            calcCountryPos()
+        })
+        ;
+
+    function calcCountryPos() {
+
+        force = d3.forceSimulation(incomingData)
+            .force('forceX', d3.forceX(forceXtwo))
+            .force('forceY', d3.forceY(forceYtwo))
+            .force('collide', d3.forceCollide(10))
+            .tick(400)
+            .on("end", function () {
+                incomingData.forEach(node => {
+                    node.countryx = node.x;
+                    node.countryy = node.y;
+                });
+
+
+
+                calcGenrePos();
+
+            })
+    }
+
+
+    function calcGenrePos() {
+        force = d3.forceSimulation(incomingData)
+            .force('forceX', d3.forceX(forceXthree))
+            .force('forceY', d3.forceY(1480))
+            .force('collide', d3.forceCollide(10))
+            .tick(400)
+            .on("end", function () {
+                incomingData.forEach(node => {
+                    node.genrex = node.x;
+                    node.genrey = node.y;
+                });
+
+                calcLastPos();
+            })
+    }
+
+    function calcLastPos() {
+        force = d3.forceSimulation(incomingData)
+            .force('forceX', d3.forceX(forceXFour))
+            .force('forceY', d3.forceY(1850))
+            .force('collide', d3.forceCollide(10))
+            .tick(400)
+            .on("end", function () {
+                incomingData.forEach(node => {
+                    node.lastx = node.x;
+                    node.lasty = node.y;
+                });
+
+            })
+    }
+
+    function showYearGraph() {
+        elementGroup.selectAll(".datagroup")
+            .transition()
+            .duration(1000)
+            .attr("transform", function (d) {
+                d.currentx = d.yearx;
+                d.currenty = d.yeary;
+                return "translate(" + d.yearx + "," + d.yeary + ")"
+            })
+            ;
+    }
+    function showCountryGraph() {
+        elementGroup.selectAll(".datagroup")
+            .transition()
+            .duration(1000)
+            .attr("transform", function (d) {
+                d.currentx = d.countryx;
+                d.currenty = d.countryy;
+                return "translate(" + d.countryx + "," + d.countryy + ")"
+            })
+            ;
+    }
+    function showGenreGraph() {
+        elementGroup.selectAll(".datagroup")
+            .transition()
+            .duration(1000)
+            .attr("transform", function (d) {
+                d.currentx = d.genrex;
+                d.currenty = d.genrey;
+                return "translate(" + d.genrex + "," + d.genrey + ")"
+            })
+            ;
+    }
+    function showLastGraph() {
+        elementGroup.selectAll(".datagroup")
+            .transition()
+            .duration(1000)
+            .attr("transform", function (d) {
+                d.currentx = d.lastx;
+                d.currenty = d.lasty;
+                return "translate(" + d.lastx + "," + d.lasty + ")"
+            })
+            ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     enterView({
         selector: '.partOne .stepOne',
         enter: function (el) {
             console.log('a special element entered');
 
-            let simulation = d3.forceSimulation(incomingData)
-                .force('forceX', d3.forceX(forceXone))
-                .force('forceY', d3.forceY(forceYone))
-                .force("collide", d3.forceCollide(10))
-                .on('tick', stimulationRan)
-                ;
-            function stimulationRan() {
 
-                elementGroup.selectAll(".datagroup")
-                    .transition()
-                    .duration(100)
-                    .attr("transform", (d, i) => {
-                        return "translate(" + d.x + "," + d.y + ")"
-                    })
-            }
+            showYearGraph()
         },
         exit: function (el) {
             // xAxisGroup.attr("opacity", 0)
@@ -1220,44 +1225,14 @@ function gotData(incomingData) {
         selector: '.partOne .stepTwo',
         enter: function (el) {
             // console.log('a special element entered');
-            let simulation = d3.forceSimulation(incomingData)
-                .force('forceX', d3.forceX(forceXtwo))
-                .force('forceY', d3.forceY(forceYtwo))
-                .force("collide", d3.forceCollide(10))
-                .on('tick', stimulationRan)
-                ;
-
-            function stimulationRan() {
-
-                d3.selectAll(".datagroup")
-                    //                     .transition()
-                    //                     .duration(1000)
-                    .attr("transform", (d, i) => {
-
-                        return "translate(" + d.x + "," + d.y + ")"
-                    })
-            }
+            showCountryGraph()
 
 
 
         },
         exit: function (el) {
             console.log('a special element exited');
-            let simulation = d3.forceSimulation(incomingData)
-                .force('forceX', d3.forceX(forceXone))
-                .force('forceY', d3.forceY(forceYone))
-                .force("collide", d3.forceCollide(10))
-                .on('tick', stimulationRan)
-                ;
-            function stimulationRan() {
-
-                elementGroup.selectAll(".datagroup")
-                    //                     .transition()
-                    //                     .duration(1000)
-                    .attr("transform", (d, i) => {
-                        return "translate(" + d.x + "," + d.y + ")"
-                    })
-            }
+            showYearGraph()
         },
         progress: function (el, progress) {
             console.log("the special element's progress is:", progress);
@@ -1278,44 +1253,14 @@ function gotData(incomingData) {
         selector: '.partOne .stepThree',
         enter: function (el) {
             // console.log('a special element entered');
-            let simulation = d3.forceSimulation(incomingData)
-                .force('forceX', d3.forceX(forceXthree))
-                .force('forceY', d3.forceY(1480))
-                .force("collide", d3.forceCollide(10))
-                .on('tick', stimulationRan)
-                ;
-
-            function stimulationRan() {
-
-                d3.selectAll(".datagroup")
-                    //                     .transition()
-                    //                     .duration(1000)
-                    .attr("transform", (d, i) => {
-
-                        return "translate(" + d.x + "," + d.y + ")"
-                    })
-            }
+            showGenreGraph()
 
 
 
         },
         exit: function (el) {
             console.log('a special element exited');
-            let simulation = d3.forceSimulation(incomingData)
-                .force('forceX', d3.forceX(forceXtwo))
-                .force('forceY', d3.forceY(forceYtwo))
-                .force("collide", d3.forceCollide(10))
-                .on('tick', stimulationRan)
-                ;
-            function stimulationRan() {
-
-                elementGroup.selectAll(".datagroup")
-                    //                     .transition()
-                    //                     .duration(1000)
-                    .attr("transform", (d, i) => {
-                        return "translate(" + d.x + "," + d.y + ")"
-                    })
-            }
+            showCountryGraph()
         },
         progress: function (el, progress) {
             console.log("the special element's progress is:", progress);
@@ -1335,42 +1280,14 @@ function gotData(incomingData) {
         selector: '.partOne .stepFour',
         enter: function (el) {
             // console.log('a special element entered');
-            let simulation = d3.forceSimulation(incomingData)
-                .force('forceX', d3.forceX(forceXFour))
-                .force('forceY', d3.forceY(1850))
-                .force("collide", d3.forceCollide(10))
-                .on('tick', stimulationRan)
-                ;
-
-            function stimulationRan() {
-
-                d3.selectAll(".datagroup")
-                    .attr("transform", (d, i) => {
-
-                        return "translate(" + d.x + "," + d.y + ")"
-                    })
-            }
+            showLastGraph()
 
 
 
         },
         exit: function (el) {
             console.log('a special element exited');
-            let simulation = d3.forceSimulation(incomingData)
-                .force('forceX', d3.forceX(forceXthree))
-                .force('forceY', d3.forceY(1500))
-                .force("collide", d3.forceCollide(10))
-                .on('tick', stimulationRan)
-                ;
-            function stimulationRan() {
-
-                elementGroup.selectAll(".datagroup")
-                    //                     .transition()
-                    //                     .duration(1000)
-                    .attr("transform", (d, i) => {
-                        return "translate(" + d.x + "," + d.y + ")"
-                    })
-            }
+            showGenreGraph()
         },
         progress: function (el, progress) {
             console.log("the special element's progress is:", progress);
@@ -1431,3 +1348,8 @@ function gotData(incomingData) {
 
 
 }
+
+
+
+
+
