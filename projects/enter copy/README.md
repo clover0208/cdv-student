@@ -2,7 +2,7 @@
  The project's name: Asian American Hate Crime Report
  A link to the live version of the project:https://clover0208.github.io/cdv-student/projects/enter/index.html
  - GIF:
-<img src="./ezgif.com-gif-maker.gif">
+<img src="./Clover.gif">
 Data collection methodology: You can visite at the End Note of my Website
 
 ## The Process
