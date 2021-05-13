@@ -11,69 +11,55 @@
   <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
   <script src="https://d3js.org/d3-array.v2.min.js"></script>
   <script src="https://unpkg.com/enter-view"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
 
   <div class="peopleimages">
-    <!-- <img class="people" id="Korean-blog" src="time.jpeg"> -->
-    <img class="people" id="Phillipine-women" src="./278cdc31-c175-45ad-ba34-c48cffcead01-GTY_1309328004.jpeg">
+    <img id="imgone" src="./200415-asian-american-commission-al-1343_8f1a6135094b15b15e9d3b7c75142edd.fit-2000w.jpg">
   </div>
 
-  <div class="bigtitle">
-    Asian American <strong>Hate Crime</strong> Report: New York City
+  <div class="title">
+    <p id="bigtitle"> Asian American <strong>Hate Crime</strong> Reported</p>
+    <p id="secondtitle">an analysis focusing on NYC as the example
+    </p>
+    <p id="intro">
+      This analysis utilizes data from three main sources:
+      the NYPD, the New York Times,
+      and the World
+      Journal between
+      <strong>January and
+        March 2021</strong>.<strong>33</strong> attacks
+      were reported by
+      the three sources in total.
+    </p>
+
   </div>
 
-
-  <div class="secondtitle">
-    <p>with data collected from the NYPD, the New York Times, and the World Journal from <strong>January to
-        March</strong></p>
-  </div>
-
-
-  <div id="intro">
-    In 2021, from January to March, <strong>33</strong> attacks targeting Asian American people were reported <br>by
-    the
-    NYPD, the New
-    York
-    Times,and the World Journal in total.
-  </div>
-
-  <div class="secondintro">
-    My report focuses on how the information is <strong>different</strong> and <strong>similar</strong>
-    <br>between the three groups
-  </div>
-  </div>
-
-  <img id="arrow" src="giphy.gif" width="60">
-
-
-
-
-  <section class="generalViz">
-
+  <div class="generalViz">
     <div id="generalcontainer">
-
-
-
-
-      <div id="intrototitle">
-        <p><strong>Let's start with titles</strong><br>In 2021, there are 64 articles and <br>announcements concerning
-          <br>hate crimes against Asian Americans <br>in New York City
-          reported by:<br>
-        </p>
-      </div>
-
-      <div id="target">
-        <p>
-        <p id="NYPD"><strong>the NYPD</strong>
-        <p id="NewYorkTimes"><strong>the New York Times</strong>
-        <p id="theWorldJournal"><strong>the World Journal</strong>
-        </p>
-      </div>
+      <p id="Titleheader"><strong>Let's start with titles</strong><br>In 2021, there are 64 articles and
+        <br>announcements concerning
+        <br>hate crimes against Asian Americans <br>in New York City
+        reported by<br>
+      <p></p>
+      <p id="NYPD"><strong>the NYPD</strong>, who is the
+        <br>department in charge of crime.
+      </p>
+      <p id="NewYorkTimes"><strong>the New York Times</strong>, who
+        <br>is main stream media in NY.
+      </p>
+      <p id="theWorldJournal"><strong>the World Journal</strong> who
+        <br>is the largest Chinese
+        <br>language newspaper in US,
+        <br>click on the above three
+        <br>name can reveal the
+        <br>related title.
+      </p>
+      </p>
     </div>
-  </section>
-
+  </div>
 
 
   <div class="partOne section sectionWithStick">
@@ -82,11 +68,10 @@
     </div>
     <div class="scrollingContent">
       <div class="fullscreen stepOne">
-
         <p id="introdensity">
           <strong>When it happen,Who report it</strong>
-          <br>As shown on the right there's
           <br>an increase in March 16 probably
+          <br>As shown on the right there's
           <br>because what happened in Atanla.
           <br>In the next part you will see
           <br>how the three group report
@@ -96,7 +81,6 @@
           <br>is the related reports,
           <br>from the three sources
         </p>
-        <div id="content"></div>
       </div>
       <div class="fullscreen stepTwo">
         <p id="suspectrace">
@@ -144,10 +128,6 @@
 
 
 
-
-
-  </div>
-  </div>
 
 
 
@@ -256,8 +236,6 @@
       </label>
     </div>
   </div>
-
-
 
 
   <script type="text/javascript" src="script.js"></script>
