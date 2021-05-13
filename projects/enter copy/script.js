@@ -5,45 +5,55 @@ let xPadding = 120;
 let w = window.innerWidth;
 let h = window.innerHeight;
 
+// window.onresize = function() {
+//     if (window.innerWidth >1000|| window.innerHeight > 1000) {
+//         window.resizeTo(800,800);
+//     }
+// };
 
 let viz = d3.select("#vizContainer1")
     .append("svg")
     .attr("width", w)
     .attr("height", h + 900)
-    .style("background-color", "#fff9f9")
+    // .style("background-color", "#fff9f9")
     ;
 
 let graphPadding = 20;
 let graphW = 600;
 let graphH = 400;
 
+document.addEventListener("scroll", function () {
+    console.log(document.documentElement.scrollTop);
+});
+
 d3.json('data.json').then(gotData);
 
 function colorone(d, i) {
 
     if (d.name == "NYPD") {
-
-        return "#ffdab9";
+        // 4357ad
+        return "#eca400";
 
     } else if (d.name == "New-York-Times") {
-
-        return "#fcd5ce";
+        // 3c3744
+        return "#21295c";
 
     } else {
-        return "#adadad";
+        return "#d64933";
     }
 };
 
 let generalViz = d3.select("#generalcontainer")
     .append("svg")
-    .style("width", 1000)
-    .style("height", 1200)
-    .attr("x", 10)
-    .attr("y", 10)
-    // .style("background", '#BCC5F7')
+    .style("width", 2 * w / 3)
+    .style("height", 2 * h)
     .attr("class", "biggeneral")
+    .attr("transform", () => {
+        let x = w / 20;
+        let y = -h / 4;
+        return "translate(" + x + "," + y + ")"
+    })
     ;
-
 
 
 
@@ -62,12 +72,12 @@ function gotData(incomingData) {
         ;
 
     function getGroupPositionzero(d, i) {
-        let x = 200;
+        let x = 0;
         let y = 17 * i + 5.5;
         return "translate(" + x + "," + y + ")"
     };
     function getranddomGroupPositionzero(d, i) {
-        let x = 200;
+        let x = 0;
         let y = 0;
         return "translate(" + x + "," + y + ")"
     };
@@ -77,12 +87,10 @@ function gotData(incomingData) {
         .attrs({
             x: 0,
             y: 0,
-            // 'text-anchor': 'middle',
             'width': 100,
             'height': 12,
             'rx': 7,
             'ry': 7,
-            // id: function (d) { return d.title }
         })
 
 
@@ -91,7 +99,7 @@ function gotData(incomingData) {
         .attr("opacity", 0)
         .attr("x", 1)
         .attr("y", 11.5)
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attrs({
             'text-anchor': 'left',
             'font-size': '11pt',
@@ -107,7 +115,7 @@ function gotData(incomingData) {
         ;
     generalGroups
         .on("mouseover", function (d, i) {
-            d3.select(this).select("rect").transition("selectedTransition").duration(100).attr("fill", "#fff9f9");
+            d3.select(this).select("rect").transition("selectedTransition").duration(100).attr("fill", "White");
             d3.select(this).select("text").transition("selectedTransition").duration(100).attr("opacity", 1);
         })
         .on("mouseout", function (d, i) {
@@ -142,34 +150,35 @@ function gotData(incomingData) {
     })
     console.log(timeParseFunction("2021-03-30T16:00:00.000Z"))
 
-    let xScale = d3.scaleTime().domain([timeParseFunction("2021-01-01T16:00:00.000Z"), timeParseFunction("2021-04-07T16:00:00.000Z")]).range([350, 1050]);
-    let delayScale = d3.scaleLinear().domain(timeExtent).range([5000, 15000]);
+    let xScale = d3.scaleTime().domain([timeParseFunction("2021-01-01T16:00:00.000Z"), timeParseFunction("2021-04-07T16:00:00.000Z")]).range([350, 1150]);
     let xAxisGroup = elementGroup.append("g").attr("class", 'xaxis');
 
     let xAxis = d3.axisBottom(xScale);
-    xAxisGroup.attr("transform", "translate(0, -325)")
+    let x_trans = 0;
+    let y_trans = -h / 1.5;
+    xAxisGroup.attr("transform", "translate(" + x_trans + "," + y_trans + ")")
         .style("color", "black")
         .attr("opacity", 1)
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1.7em");
     xAxisGroup.call(xAxis)
 
     xAxisGroup.append("g").attr('class', 'xLabel')
-        .attr("transform", "translate(700, 40)")
+        .attr("transform", "translate(800, 40)")
         .append("text")
         .attr("fill", "black")
         .text("When the report first published")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1.6em")
         .attr("opacity", 0.9)
 
         ;
     elementGroup.append("text")
-        .attr("x", -40)
+        .attr("x", -60)
         .attr("y", -50)
         .attr("fill", "black")
         .text("65-women")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -177,7 +186,7 @@ function gotData(incomingData) {
         .attr("y", 50)
         .attr("fill", "black")
         .text("Asiangetlockjaw")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -185,7 +194,7 @@ function gotData(incomingData) {
         .attr("y", 165)
         .attr("fill", "black")
         .text("37-female")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -193,7 +202,7 @@ function gotData(incomingData) {
         .attr("y", 260)
         .attr("fill", "black")
         .text("femalebluehair")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -201,21 +210,21 @@ function gotData(incomingData) {
         .attr("y", 360)
         .attr("fill", "black")
         .text("65-male")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
         .attr("x", -70)
         .attr("y", 470)
         .attr("fill", "black")
         .text("36-stabbed-debatable")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
         .attr("x", -45)
         .attr("y", 560)
         .attr("fill", "black")
         .text("Ching-Chong")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     //第二列
@@ -225,7 +234,7 @@ function gotData(incomingData) {
         .attr("y", -50)
         .attr("fill", "black")
         .text("ZhangMingshun")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -233,7 +242,7 @@ function gotData(incomingData) {
         .attr("y", 50)
         .attr("fill", "black")
         .text("female inLongIsland")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -241,7 +250,7 @@ function gotData(incomingData) {
         .attr("y", 165)
         .attr("fill", "black")
         .text("man inHarlem")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -249,7 +258,7 @@ function gotData(incomingData) {
         .attr("y", 260)
         .attr("fill", "black")
         .text("policeattacked")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -257,21 +266,21 @@ function gotData(incomingData) {
         .attr("y", 360)
         .attr("fill", "black")
         .text("man inFlushing")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
         .attr("x", 225)
         .attr("y", 470)
         .attr("fill", "black")
         .text("37-Hou")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
         .attr("x", 200)
         .attr("y", 560)
         .attr("fill", "black")
         .text("maskonstreet")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
 
@@ -282,7 +291,7 @@ function gotData(incomingData) {
         .attr("y", -50)
         .attr("fill", "black")
         .text("walk-dog")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -290,7 +299,7 @@ function gotData(incomingData) {
         .attr("y", 50)
         .attr("fill", "black")
         .text("13-teen")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -298,7 +307,7 @@ function gotData(incomingData) {
         .attr("y", 165)
         .attr("fill", "black")
         .text("laundromat")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -306,7 +315,7 @@ function gotData(incomingData) {
         .attr("y", 260)
         .attr("fill", "black")
         .text("couple")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -314,21 +323,21 @@ function gotData(incomingData) {
         .attr("y", 360)
         .attr("fill", "black")
         .text("maskonsubway")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
         .attr("x", 470)
         .attr("y", 470)
         .attr("fill", "black")
         .text("61-male")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
         .attr("x", 470)
         .attr("y", 560)
         .attr("fill", "black")
         .text("unclear")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     //第四列
@@ -337,7 +346,7 @@ function gotData(incomingData) {
         .attr("y", -50)
         .attr("fill", "black")
         .text("womenbeurined")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -345,7 +354,7 @@ function gotData(incomingData) {
         .attr("y", 50)
         .attr("fill", "black")
         .text("mother-and-son")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -353,7 +362,7 @@ function gotData(incomingData) {
         .attr("y", 165)
         .attr("fill", "black")
         .text("52women-Feb")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -361,7 +370,7 @@ function gotData(incomingData) {
         .attr("y", 260)
         .attr("fill", "black")
         .text("Route")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -369,14 +378,14 @@ function gotData(incomingData) {
         .attr("y", 360)
         .attr("fill", "black")
         .text("gym-manager")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
         .attr("x", 670)
         .attr("y", 470)
         .attr("fill", "black")
         .text("Korean-blog")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
 
@@ -386,7 +395,7 @@ function gotData(incomingData) {
         .attr("y", -50)
         .attr("fill", "black")
         .text("protesterinLowerEast")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -394,7 +403,7 @@ function gotData(incomingData) {
         .attr("y", 50)
         .attr("fill", "black")
         .text("54women")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -402,7 +411,7 @@ function gotData(incomingData) {
         .attr("y", 165)
         .attr("fill", "black")
         .text("83-Korean")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -410,7 +419,7 @@ function gotData(incomingData) {
         .attr("y", 260)
         .attr("fill", "black")
         .text("23-koreanwomen")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -418,14 +427,14 @@ function gotData(incomingData) {
         .attr("y", 360)
         .attr("fill", "black")
         .text("nazi")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
         .attr("x", 890)
         .attr("y", 470)
         .attr("fill", "black")
         .text("68-male")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -433,7 +442,7 @@ function gotData(incomingData) {
         .attr("y", 850)
         .attr("fill", "black")
         .text("Suspect: Minority Group")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -441,7 +450,7 @@ function gotData(incomingData) {
         .attr("y", 850)
         .attr("fill", "black")
         .text("Light-skin")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
@@ -449,73 +458,73 @@ function gotData(incomingData) {
         .attr("y", 850)
         .attr("fill", "black")
         .text("Unclear")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
         .attr("x", 550)
-        .attr("y", 1350)
+        .attr("y", 1.9 * h)
         .attr("fill", "black")
         .text("Male Suspect")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
         .attr("x", 750)
-        .attr("y", 1350)
+        .attr("y", 1.9 * h)
         .attr("fill", "black")
         .text("Female Suspect")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
 
     elementGroup.append("text")
         .attr("x", 450)
-        .attr("y", 1750)
+        .attr("y", 2.8 * h)
         .attr("fill", "black")
         .text("Minority group")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
         .attr("x", 650)
-        .attr("y", 1750)
+        .attr("y", 2.8 * h)
         .attr("fill", "black")
         .text("Other")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
     elementGroup.append("text")
         .attr("x", 820)
-        .attr("y", 1750)
+        .attr("y", 2.8 * h)
         .attr("fill", "black")
         .text("Unclear")
-        .attr("font-family", "'Amaranth', sans-serif")
+        .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
 
 
 
 
-    elementGroup.on("mouseover", function (d, i) {
-        datagroup.select(this)
-            .select("circle")
-            .transition()
-            .attr("opacity", 1);
-        var content = document.getElementsByClassName('datagroup');
-        var textcontent = document.createElement("P");
-        textcontent.innerText = "\n" + d.description + "\n" + d.link;
-        content.innerHTML = "";
-        content.appendChild(textcontent);
-        console.log(content.appendChild(textcontent))
-        d3.select(".datagroup").transition().delay(200).style("opacity", 1)
+    // elementGroup.on("mouseover", function (d, i) {
+    //     d3.select(this)
+    //         .select(".datagroup")
+    //         .transition()
+    //         .attr("opacity", 1);
+    //     var content = document.getElementById("content");
+    //     var textcontent = document.createElement("P");
+    //     textcontent.innerText = "\n" + d.description + "\n" + d.link;
+    //     content.innerHTML = "";
+    //     content.appendChild(textcontent);
+    //     console.log(content.appendChild(textcontent))
+    //     d3.select("#content").transition().delay(200).style("opacity", 1)
 
-    })
-        .on("mouseout", function (d, i) {
-            d3.select("circle").attr("r", 5);
-            d3.select(".datagroup").style("opacity", 0)
+    // })
+    //     .on("mouseout", function (d, i) {
+    //         d3.select(".datagroup").attr("r", 5);
+    //         d3.select(".datagroup").style("opacity", 0)
 
-        })
+    //     })
 
 
 
@@ -1012,13 +1021,14 @@ function gotData(incomingData) {
         let enteringElements = elements.enter();
         let exitingElements = elements.exit();
 
+
         xAxisGroup.attr("opacity", 1)
         let datagroups = enteringElements.append("g")
             .attr("fill", colorone)
             .attr("class", "datagroup")
             .attr("transform", (d, i) => {
                 let x = xScale(timeParseFunction(d.time));
-                let y = Math.random() * 300 - 625;
+                let y = Math.random() * 300 - h * 1.1;
                 return "translate(" + x + "," + y + ")"
             }
             )
@@ -1094,9 +1104,11 @@ function gotData(incomingData) {
 
 
     function calcGenrePos() {
+
+
         force = d3.forceSimulation(incomingData)
             .force('forceX', d3.forceX(forceXthree))
-            .force('forceY', d3.forceY(1480))
+            .force('forceY', d3.forceY(2.1 * h))
             .force('collide', d3.forceCollide(10))
             .tick(400)
             .on("end", function () {
@@ -1112,7 +1124,7 @@ function gotData(incomingData) {
     function calcLastPos() {
         force = d3.forceSimulation(incomingData)
             .force('forceX', d3.forceX(forceXFour))
-            .force('forceY', d3.forceY(1850))
+            .force('forceY', d3.forceY(3 * h))
             .force('collide', d3.forceCollide(10))
             .tick(400)
             .on("end", function () {
@@ -1185,8 +1197,6 @@ function gotData(incomingData) {
         selector: '.partOne .stepOne',
         enter: function (el) {
             console.log('a special element entered');
-
-
             showYearGraph()
         },
         exit: function (el) {
@@ -1196,24 +1206,19 @@ function gotData(incomingData) {
                 .duration(1000)
                 .attr("transform", (d, i) => {
                     let x = xScale(timeParseFunction(d.time));
-                    let y = Math.random() * 300 - 625;
+                    let y = Math.random() * 300 - h * 1.1;
                     return "translate(" + x + "," + y + ")"
                 })
-
-
         },
         progress: function (el, progress) {
-            console.log("the special element's progress is:", progress);
+            console.log("the special element one progress is:", progress);
             graphGroup.attr("transform", () => {
                 let x = 0;
-                let y = h - progress * h;
+                let y = h - 1.1 * progress * h;
                 return "translate(" + x + "," + y + ")"
             })
                 ;
         },
-
-        // offset: 0, // enter at middle of viewport
-        // once: true, // trigger just once
     });
 
 
@@ -1224,11 +1229,7 @@ function gotData(incomingData) {
     enterView({
         selector: '.partOne .stepTwo',
         enter: function (el) {
-            // console.log('a special element entered');
             showCountryGraph()
-
-
-
         },
         exit: function (el) {
             console.log('a special element exited');
@@ -1243,8 +1244,7 @@ function gotData(incomingData) {
             })
                 ;
         },
-        offset: 0.5, // enter at middle of viewport
-        // once: true, // trigger just once
+        offset: 0.5,
     });
 
 
@@ -1254,9 +1254,6 @@ function gotData(incomingData) {
         enter: function (el) {
             // console.log('a special element entered');
             showGenreGraph()
-
-
-
         },
         exit: function (el) {
             console.log('a special element exited');
@@ -1279,11 +1276,7 @@ function gotData(incomingData) {
     enterView({
         selector: '.partOne .stepFour',
         enter: function (el) {
-            // console.log('a special element entered');
             showLastGraph()
-
-
-
         },
         exit: function (el) {
             console.log('a special element exited');
@@ -1293,12 +1286,12 @@ function gotData(incomingData) {
             console.log("the special element's progress is:", progress);
             graphGroup.attr("transform", () => {
                 let x = 0;
-                let y = - progress * h - h - h;
+                let y = - progress * h - h - h * 0.5;
                 return "translate(" + x + "," + y + ")"
             })
                 ;
         },
-        offset: 0.5,
+        // offset: 0.5,
     });
 
 
@@ -1307,7 +1300,6 @@ function gotData(incomingData) {
     enterView({
         selector: ".biggeneral",
         enter: function (el) {
-            // generalViz.transition().attr("opacity", 1);
             generalViz.selectAll('.generalgroup')
                 .attr("opacity", 1)
                 .transition()
@@ -1318,24 +1310,12 @@ function gotData(incomingData) {
                 .transition()
                 .delay(50)
                 .duration(800)
-                // .delay(function(i){return i})
                 .attr("transform", getGroupPositionzero)
                 .attr("opacity", 1);
-            // function getGroupPositionzero(d, i) {
-            //     let x = 200;
-            //     let y = 17 * i + 5.5;
-            //     return "translate(" + x + "," + y + ")"
-            // };
-            // function getranddomGroupPositionzero(d, i) {
-            //     let x = 200;
-            //     let y = 0;
-            //     return "translate(" + x + "," + y + ")"
-            // };
 
 
         },
         exit: function (el) {
-            // generalViz.transition().attr("opacity", 0);
 
         },
 
@@ -1349,7 +1329,22 @@ function gotData(incomingData) {
 
 }
 
+// enterView({
+//     selector: ".partOne #introdensity",
+//     enter: function (el) {
+//         // elementGroup.selectAll('.generalgroup')
+//     },
+//     exit: function (el) {
+
+//     },
 
 
-
-
+//     progress: function (el, progress) {
+//         console.log("the special element's progress is:", progress);
+//         graphGroup.attr("transform", () => {
+//             let x = 0;
+//             let y = h - progress * h;
+//             return "translate(" + x + "," + y + ")"
+//         })
+//     }
+// })
