@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth:700,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+
 /* @import url('https://fonts.googleapis.com/css?family=Arial:700,400&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900'); */
 
@@ -55,7 +58,7 @@ body{
   font-weight: 90;
 } 
 
-/* strong {
+strong {
   position: relative;
 }
 strong::after {
@@ -66,10 +69,15 @@ strong::after {
   right: -0.5rem;
   height: 0.75rem;
   z-index: -1;
-  background-image: url(./underline1.svg);
+  /* background-image: url(./underline1.svg); */
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
+#Titleheader strong {
+  line-height: 0.3;
+  font-size: 1.7rem;
+  /* font-weight: 200; */
+}
 
 /* #intro strong {
   font-weight: 190;
@@ -83,16 +91,19 @@ strong::after {
 
 
 .generalViz{
+  
   font-size: 1.5rem;
   display: block;
   width:60%;
   position:relative;
-  top: 0vh;
+  top: -3vh;
   left:12vw;
+  font-weight: 30;
   
 }
 
 .generalViz p{
+  font-family: 'Times', sans-serif;
   position:relative;
   top: 24vh;
 
@@ -106,7 +117,6 @@ strong::after {
   position: relative;
   ;
 }
-
 #Titleheader strong::after {
   content: "";
   position: absolute;
@@ -124,54 +134,85 @@ strong::after {
   top: 22.3vh;
 }
 
-/* #NYPD strong {
+#NYPD strong {
   line-height: 0.3;
-  font-size: 1.5rem;
-  font-weight: 150;
+  font-size: 1.4rem;
+  /* font-weight: 200; */
 }
 #NYPD strong::after {
   content: "";
   position: absolute;
-  bottom: -0.3rem;
+  bottom: -0.5rem;
   left: 0rem;
   right: 0rem;
-  height: 2rem;
+  height: 0.6rem;
   z-index: -1;
-  background-image: url(./underline3.svg);
+  background-image: url(./NYPD.svg);
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
+#NYPDtwo strong {
+  line-height: 0.3;
+  font-size: 1.4rem;
+  /* font-weight: 200; */
+}
+#NYPDtwo strong::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0rem;
+  right: 0rem;
+  height: 0.5rem;
+  z-index: -1;
+  background-image: url(./NYPD.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #NewYorkTimes {
   position:relative;
   top: 21vh;
 }
 
-/* #NewYorkTimes strong {
-  font-size: 1.5rem;
-  position: relative;
-  font-weight: 10;
+#NewYorkTimes strong {
+  line-height: 0.3;
+  font-size: 1.4rem;
 }
 #NewYorkTimes strong::after {
   content: "";
   position: absolute;
-  bottom: -0.3rem;
+  bottom: -0.5rem;
   left: -0.5rem;
   right: 0rem;
-  height: 2rem;
+  height: 0.7rem;
   z-index: -1;
-  background-image: url(./underline1.svg);
+  background-image: url(./NYT.svg);
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
+#NYTtwo strong {
+  line-height: 0.3;
+  font-size: 1.4rem;
+}
+#NYTtwo strong::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: 0rem;
+  height: 0.6rem;
+  z-index: -1;
+  background-image: url(./NYT.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #theWorldJournal{
   position:relative;
   top: 19.5vh;
 }
-/* #theWorldJournal strong {
-  font-size: 1.5rem;
-  position: relative;
-  font-weight: 150;
+#theWorldJournal strong {
+  line-height: 0.3;
+  font-size: 1.4rem;
 }
 #theWorldJournal strong::after {
   content: "";
@@ -179,12 +220,28 @@ strong::after {
   bottom: -0.3rem;
   left: -0.5rem;
   right: 0rem;
-  height: 2rem;
+  height: 0.6rem;
   z-index: -1;
-  background-image: url(./underline2.svg);
+  background-image: url(./World.svg);
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
+#Worldtwo strong {
+  line-height: 0.3;
+  font-size: 1.4rem;
+}
+#Worldtwo strong::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3rem;
+  left: -0.5rem;
+  right: 0rem;
+  height: 0.6rem;
+  z-index: -1;
+  background-image: url(./World.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -249,7 +306,7 @@ strong::after {
   width:30%;
   left:12vw;
   position: relative;
-  top: 600px;
+  top: 8em;
   font-family: 'Times', sans-serif;
   line-height: 1.3;
   font-size: 1.5rem;
@@ -262,13 +319,66 @@ strong::after {
   opacity: 0;
   animation: fade-in 4s forwards; 
 }
+#suspectrace strong{
+  line-height: 0.3;
+  font-size: 1.7rem;
+}
+
+/* #NYPDtwo{
+  display: block;
+  width:30%;
+  left:12vw;
+  position: relative;
+  top: 7em;
+  font-family: 'Times', sans-serif;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  font-weight: 90;
+  animation: fadeEffect 3s;
+} */
+#NYPDtwo{
+  display: block;
+  width:30%;
+  left:12vw;
+  position: relative;
+  top: 7em;
+  font-family: 'Times', sans-serif;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  font-weight: 90;
+  animation: fadeEffect 3s;
+}
+#NYTtwo{
+  display: block;
+  width:30%;
+  left:12vw;
+  position: relative;
+  top: 6em;
+  font-family: 'Times', sans-serif;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  font-weight: 90;
+  animation: fadeEffect 3s;
+}
+#Worldtwo{
+  display: block;
+  width:30%;
+  left:12vw;
+  position: relative;
+  top: 5em;
+  font-family: 'Times', sans-serif;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  font-weight: 90;
+  animation: fadeEffect 3s;
+}
 
 #whatsuspecttell {
   display: block;
   width:30%;
   left:12vw;
   position: relative;
-  top: 10em;
+  top: 3em;
   font-family: 'Times', sans-serif;
   line-height: 1.3;
   font-size: 1.5rem;
@@ -282,13 +392,17 @@ strong::after {
   opacity: 0;
   animation: fade-in 4s forwards; 
 }
+#whatsuspecttell strong {
+  line-height: 0.3;
+  font-size: 1.5rem;
+}
 
 #whatvictimttell {
   display: block;
   width:30%;
   left:12vw;
   position: relative;
-  top: -140px;
+  top: -18em;
   font-family: 'Times', sans-serif;
   line-height: 1.3;
   font-size: 1.5rem;
@@ -301,6 +415,10 @@ strong::after {
 
   opacity: 0;
   animation: fade-in 4s forwards; 
+}
+#whatvictimttell strong {
+  line-height: 0.3;
+  font-size: 1.7rem;
 }
 
 
@@ -382,8 +500,8 @@ strong::after {
 
 .cover {
   position:relative;
-  top:0em;
-  left:400px;
+  top:-2em;
+  left:25em;
   width: calc(var(--baseline) * 60);
   height: calc(var(--baseline) * 42.6);
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
@@ -418,7 +536,7 @@ strong::after {
   overflow: hidden;
 }
 .book__page--1 img {
-  width: 95%;
+  width: 90%;
   max-width: 100%;
   height: auto;
   position:relative;
