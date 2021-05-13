@@ -150,12 +150,12 @@ function gotData(incomingData) {
     })
     console.log(timeParseFunction("2021-03-30T16:00:00.000Z"))
 
-    let xScale = d3.scaleTime().domain([timeParseFunction("2021-01-01T16:00:00.000Z"), timeParseFunction("2021-04-07T16:00:00.000Z")]).range([350, 1150]);
+    let xScale = d3.scaleTime().domain([timeParseFunction("2021-01-01T16:00:00.000Z"), timeParseFunction("2021-04-07T16:00:00.000Z")]).range([350, 1050]);
     let xAxisGroup = elementGroup.append("g").attr("class", 'xaxis');
 
     let xAxis = d3.axisBottom(xScale);
     let x_trans = 0;
-    let y_trans = -h / 1.5;
+    let y_trans = -h / 1.55;
     xAxisGroup.attr("transform", "translate(" + x_trans + "," + y_trans + ")")
         .style("color", "black")
         .attr("opacity", 1)
@@ -463,7 +463,7 @@ function gotData(incomingData) {
 
     elementGroup.append("text")
         .attr("x", 550)
-        .attr("y", 1.9 * h)
+        .attr("y", 1.6 * h)
         .attr("fill", "black")
         .text("Male Suspect")
         .attr("font-family", "'Times', sans-serif")
@@ -471,7 +471,7 @@ function gotData(incomingData) {
 
     elementGroup.append("text")
         .attr("x", 750)
-        .attr("y", 1.9 * h)
+        .attr("y", 1.6 * h)
         .attr("fill", "black")
         .text("Female Suspect")
         .attr("font-family", "'Times', sans-serif")
@@ -1108,7 +1108,7 @@ function gotData(incomingData) {
 
         force = d3.forceSimulation(incomingData)
             .force('forceX', d3.forceX(forceXthree))
-            .force('forceY', d3.forceY(2.1 * h))
+            .force('forceY', d3.forceY(1.75*h))
             .force('collide', d3.forceCollide(10))
             .tick(400)
             .on("end", function () {
@@ -1187,7 +1187,16 @@ function gotData(incomingData) {
 
 
 
-
+    // elementGroup
+    // .on("mouseover", function (d, i) {
+    //     d3.select(this).selectAll(".datagroup").attr("fill", "White");
+       
+    // })
+    // .on("mouseout", function (d, i) {
+    //     d3.select(this).selectAll(".datagroup").attr("fill", colorone);
+        
+    // })
+    // ;
 
 
 
@@ -1244,7 +1253,7 @@ function gotData(incomingData) {
             })
                 ;
         },
-        offset: 0.5,
+        // offset: 0.5,
     });
 
 
@@ -1268,7 +1277,7 @@ function gotData(incomingData) {
             })
                 ;
         },
-        offset: 0.5,
+        // offset: 0.4,
     });
 
 
@@ -1286,12 +1295,12 @@ function gotData(incomingData) {
             console.log("the special element's progress is:", progress);
             graphGroup.attr("transform", () => {
                 let x = 0;
-                let y = - progress * h - h - h * 0.5;
+                let y = - progress * h - h - h;
                 return "translate(" + x + "," + y + ")"
             })
                 ;
         },
-        // offset: 0.5,
+        offset: -1,
     });
 
 
