@@ -155,7 +155,7 @@ function gotData(incomingData) {
 
     let xAxis = d3.axisBottom(xScale);
     let x_trans = 0;
-    let y_trans = -h / 1.4;
+    let y_trans = -h / 1.6;
     xAxisGroup.attr("transform", "translate(" + x_trans + "," + y_trans + ")")
         .style("color", "black")
         .attr("opacity", 1)
@@ -463,7 +463,7 @@ function gotData(incomingData) {
 
     elementGroup.append("text")
         .attr("x", 550)
-        .attr("y", 1.3 * h)
+        .attr("y", 1.2 * h)
         .attr("fill", "black")
         .text("Male Suspect")
         .attr("font-family", "'Times', sans-serif")
@@ -471,7 +471,7 @@ function gotData(incomingData) {
 
     elementGroup.append("text")
         .attr("x", 750)
-        .attr("y", 1.3 * h)
+        .attr("y", 1.2 * h)
         .attr("fill", "black")
         .text("Female Suspect")
         .attr("font-family", "'Times', sans-serif")
@@ -1108,7 +1108,7 @@ function gotData(incomingData) {
 
         force = d3.forceSimulation(incomingData)
             .force('forceX', d3.forceX(forceXthree))
-            .force('forceY', d3.forceY(1.4*h))
+            .force('forceY', d3.forceY(1.5*h))
             .force('collide', d3.forceCollide(10))
             .tick(400)
             .on("end", function () {
