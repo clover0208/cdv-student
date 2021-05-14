@@ -501,7 +501,7 @@ strong::after {
 .cover {
   position:relative;
   top:-2em;
-  left:25em;
+  left:40em;
   width: calc(var(--baseline) * 60);
   height: calc(var(--baseline) * 42.6);
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
