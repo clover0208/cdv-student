@@ -155,7 +155,7 @@ function gotData(incomingData) {
 
     let xAxis = d3.axisBottom(xScale);
     let x_trans = 0;
-    let y_trans = -h / 1.6;
+    let y_trans = -h / 1.4;
     xAxisGroup.attr("transform", "translate(" + x_trans + "," + y_trans + ")")
         .style("color", "black")
         .attr("opacity", 1)
