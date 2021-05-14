@@ -155,7 +155,7 @@ function gotData(incomingData) {
 
     let xAxis = d3.axisBottom(xScale);
     let x_trans = 0;
-    let y_trans = -h / 1.55;
+    let y_trans = -h / 1.5;
     xAxisGroup.attr("transform", "translate(" + x_trans + "," + y_trans + ")")
         .style("color", "black")
         .attr("opacity", 1)
@@ -1108,7 +1108,7 @@ function gotData(incomingData) {
 
         force = d3.forceSimulation(incomingData)
             .force('forceX', d3.forceX(forceXthree))
-            .force('forceY', d3.forceY(1.75*h))
+            .force('forceY', d3.forceY(1.4*h))
             .force('collide', d3.forceCollide(10))
             .tick(400)
             .on("end", function () {
