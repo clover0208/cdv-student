@@ -155,7 +155,7 @@ function gotData(incomingData) {
 
     let xAxis = d3.axisBottom(xScale);
     let x_trans = 0;
-    let y_trans = -h / 1.5;
+    let y_trans = -h / 1.4;
     xAxisGroup.attr("transform", "translate(" + x_trans + "," + y_trans + ")")
         .style("color", "black")
         .attr("opacity", 1)
@@ -463,7 +463,7 @@ function gotData(incomingData) {
 
     elementGroup.append("text")
         .attr("x", 550)
-        .attr("y", 1.45 * h)
+        .attr("y", 1.3 * h)
         .attr("fill", "black")
         .text("Male Suspect")
         .attr("font-family", "'Times', sans-serif")
@@ -471,7 +471,7 @@ function gotData(incomingData) {
 
     elementGroup.append("text")
         .attr("x", 750)
-        .attr("y", 1.45 * h)
+        .attr("y", 1.3 * h)
         .attr("fill", "black")
         .text("Female Suspect")
         .attr("font-family", "'Times', sans-serif")
