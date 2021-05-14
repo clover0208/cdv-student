@@ -463,7 +463,7 @@ function gotData(incomingData) {
 
     elementGroup.append("text")
         .attr("x", 550)
-        .attr("y", 1.6 * h)
+        .attr("y", 1.45 * h)
         .attr("fill", "black")
         .text("Male Suspect")
         .attr("font-family", "'Times', sans-serif")
@@ -471,7 +471,7 @@ function gotData(incomingData) {
 
     elementGroup.append("text")
         .attr("x", 750)
-        .attr("y", 1.6 * h)
+        .attr("y", 1.45 * h)
         .attr("fill", "black")
         .text("Female Suspect")
         .attr("font-family", "'Times', sans-serif")
