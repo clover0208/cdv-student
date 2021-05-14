@@ -223,7 +223,7 @@ function gotData(incomingData) {
         .attr("x", -45)
         .attr("y", 560)
         .attr("fill", "black")
-        .text("Ching-Chong")
+        .text("Programmer")
         .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
@@ -290,7 +290,7 @@ function gotData(incomingData) {
         .attr("x", 470)
         .attr("y", -50)
         .attr("fill", "black")
-        .text("walk-dog")
+        .text("ladywalkdog")
         .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
@@ -306,7 +306,7 @@ function gotData(incomingData) {
         .attr("x", 465)
         .attr("y", 165)
         .attr("fill", "black")
-        .text("laundromat")
+        .text("laundromatman")
         .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
@@ -369,7 +369,7 @@ function gotData(incomingData) {
         .attr("x", 685)
         .attr("y", 260)
         .attr("fill", "black")
-        .text("Route")
+        .text("ladyinRoute7")
         .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
 
@@ -426,7 +426,7 @@ function gotData(incomingData) {
         .attr("x", 900)
         .attr("y", 360)
         .attr("fill", "black")
-        .text("nazi")
+        .text("becallednazi")
         .attr("font-family", "'Times', sans-serif")
         .attr("font-size", "1em")
     elementGroup.append("text")
