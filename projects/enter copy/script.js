@@ -1108,7 +1108,7 @@ function gotData(incomingData) {
 
         force = d3.forceSimulation(incomingData)
             .force('forceX', d3.forceX(forceXthree))
-            .force('forceY', d3.forceY(1.5*h))
+            .force('forceY', d3.forceY(1.6*h))
             .force('collide', d3.forceCollide(10))
             .tick(400)
             .on("end", function () {
